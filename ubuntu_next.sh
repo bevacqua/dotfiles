@@ -7,7 +7,9 @@ sudo apt-get install build-essential libssl-dev curl -y
 sudo apt-get install git-core -y
 git config --global user.name "Nicolas Bevacqua"
 git config --global user.email "nicolasbevacqua@gmail.com"
+git config --global credential.helper store
 git config --global push.default simple
+git config --global branch.autosetuprebase always
 
 # chrome install
 sudo apt-get install libxss1
