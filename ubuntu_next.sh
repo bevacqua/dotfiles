@@ -3,6 +3,9 @@
 # essentials
 sudo apt-get install build-essential libssl-dev curl -y
 
+# ruby
+sudo apt-get install rubygems -y --force-yes
+
 # git
 sudo apt-get install git-core -y
 git config --global user.name "Nicolas Bevacqua"
@@ -11,7 +14,12 @@ git config --global credential.helper store
 git config --global push.default simple
 git config --global branch.autosetuprebase always
 
-# chrome install
+# hub utility
+sudo gem install hub
+mkdir -p ~/bin
+hub hub standalone > ~/bin/hub && chmod +x ~/bin/hub
+
+# chrome
 sudo apt-get install libxss1
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome*.deb
