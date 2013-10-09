@@ -4,11 +4,11 @@ dotfiles
 #### Ubuntu
 
 ````shell
-sh ubuntu.sh
+sudo sh ubuntu.sh
 ````
 
 then, _(after restart)_
 
 ```shell
-sh ubuntu_next.sh
+sudo sh ubuntu_next.sh
 ```
