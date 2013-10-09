@@ -1,10 +1,13 @@
-#!/bin/zsh
+usrrc#!/bin/zsh
 
 # essentials
 sudo apt-get install build-essential libssl-dev curl -y
 
 # ruby
 sudo apt-get install rubygems -y --force-yes
+
+# pip
+sudo apt-get install python-pip -y --force-yes
 
 # git
 sudo apt-get install git-core -y
@@ -18,6 +21,7 @@ git config --global branch.autosetuprebase always
 sudo gem install hub
 mkdir -p ~/bin
 hub hub standalone > ~/bin/hub && chmod +x ~/bin/hub
+git config --global hub.protocol https
 
 # chrome
 sudo apt-get install libxss1
@@ -36,10 +40,31 @@ wget -O - https://www.hipchat.com/keys/hipchat-linux.key | apt-key add -
 sudo apt-get update
 sudo apt-get install hipchat -y
 
+# zsh, fancy zsh
+sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnoster\"' ~/.zshrc
+
+# usrrc
+echo "export EDITOR=subl" >> ~/.usrrc
+echo "\nalias usrconfig=\"\$EDITOR ~/.usrrc\"" >> ~/.usrrc
+echo "\nalias zshconfig=\"\$EDITOR ~/.zshrc\"" >> ~/.usrrc
+echo "\n. ~/.nvm/nvm.sh" >> ~/.usrrc
+
+echo "\nsource ~/.usrrc" >> ~/.zshrc
+
+# powerline
+pip install --user git+git://github.com/Lokaltog/powerline
+wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+mkdir -p ~/.fonts/ && mv PowerlineSymbols.otf ~/.fonts/
+fc-cache -vf ~/.fonts
+mkdir -p ~/.config/fontconfig/conf.d/ && mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+
 # nvm
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-echo "\n. ~/.nvm/nvm.sh" >> ~/.zshrc
+
+# refresh configuration
 source ~/.zshrc
+
+# node
 nvm install 0.10.20
 
 ## npm
