@@ -34,3 +34,6 @@ shutdown -r 0
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 echo "\n. ~/.nvm/nvm.sh" >> ~/.zshrc
 source ~/.zshrc
+
+## change timezone
+# dpkg-reconfigure tzdata
