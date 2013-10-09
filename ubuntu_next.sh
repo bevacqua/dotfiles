@@ -45,6 +45,7 @@ sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnoster\"' ~/.zshrc
 
 # usrrc
 echo "export EDITOR=subl" >> ~/.usrrc
+echo "\nalias open=\"xdg-open\"" >> ~/.usrrc
 echo "\nalias usrconfig=\"\$EDITOR ~/.usrrc\"" >> ~/.usrrc
 echo "\nalias zshconfig=\"\$EDITOR ~/.zshrc\"" >> ~/.usrrc
 echo "\n. ~/.nvm/nvm.sh" >> ~/.usrrc
