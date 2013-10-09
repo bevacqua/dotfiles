@@ -32,8 +32,8 @@ echo "\n. ~/.nvm/nvm.sh" >> ~/.zshrc
 source ~/.zshrc
 nvm install 0.10.20
 
-## npm
-# npm adduser
+# npm
+npm adduser
 
 ## change timezone
 # dpkg-reconfigure tzdata
