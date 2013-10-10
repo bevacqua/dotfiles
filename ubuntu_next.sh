@@ -12,6 +12,9 @@ sudo apt-get install python-pip -y --force-yes
 # gnome-do
 sudo apt-get install gnome-do -y --force-yes
 
+# gm
+sudo apt-get install -qqy graphicsmagick
+
 # git
 sudo apt-get install git-core -y
 git config --global user.name "Nicolas Bevacqua"
