@@ -78,7 +78,7 @@ source ~/.zshrc
 nvm install 0.10.20
 
 # npm
-npm i -g bower grunt-cli
+npm install -g bower grunt-cli nodemon
 
 ## npm
 # npm adduser
