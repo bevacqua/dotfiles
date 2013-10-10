@@ -1,4 +1,4 @@
-usrrc#!/bin/zsh
+#!/bin/zsh
 
 # essentials
 sudo apt-get install build-essential libssl-dev curl -y
@@ -9,6 +9,8 @@ sudo apt-get install rubygems -y --force-yes
 # pip
 sudo apt-get install python-pip -y --force-yes
 
+# gnome-do
+sudo apt-get install gnome-do -y --force-yes
 # git
 sudo apt-get install git-core -y
 git config --global user.name "Nicolas Bevacqua"
@@ -41,9 +43,12 @@ sudo apt-get update
 sudo apt-get install hipchat -y
 
 # zsh, fancy zsh
-sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnoster\"' ~/.zshrc
+cp agnork.zsh-theme ~/.oh-my-zsh/themes/
+sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnork\"' ~/.zshrc
+sed -i '/COMPLETION_WAITING_DOTS=/c\COMPLETION_WAITING_DOTS=\"true\"' ~/.zshrc
+sed -i '/DISABLE_CORRECTION=/c\DISABLE_CORRECTION=\"true\"' ~/.zshrc
 
-# usrrc
+# .usrrc
 echo "export EDITOR=subl" >> ~/.usrrc
 echo "\nalias open=\"xdg-open\"" >> ~/.usrrc
 echo "\nalias usrconfig=\"\$EDITOR ~/.usrrc\"" >> ~/.usrrc
