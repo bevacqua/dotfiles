@@ -1,4 +1,9 @@
 {
-	"save_on_focus_lost": true,
-	"update_check": false
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "font_size": 12,
+    "save_on_focus_lost": true,
+    "update_check": false
 }
