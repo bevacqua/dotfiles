@@ -11,6 +11,7 @@ sudo apt-get install python-pip -y --force-yes
 
 # gnome-do
 sudo apt-get install gnome-do -y --force-yes
+
 # git
 sudo apt-get install git-core -y
 git config --global user.name "Nicolas Bevacqua"
@@ -81,5 +82,8 @@ nvm install 0.10.20
 
 ## change keyboard layout
 # dpkg-reconfigure keyboard-configuration
+
+# install utility packages
+sh ./ubuntu_utils.sh
 
 exit 0
