@@ -9,11 +9,11 @@ sudo apt-get install rubygems -y --force-yes
 # pip
 sudo apt-get install python-pip -y --force-yes
 
-# gnome-do
-sudo apt-get install gnome-do -y --force-yes
-
 # gm
 sudo apt-get install -qqy graphicsmagick
+
+# gnome-do
+sudo apt-get install gnome-do -y --force-yes
 
 # git
 sudo apt-get install git-core -y
