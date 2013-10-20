@@ -8,4 +8,3 @@ chsh -s `which zsh`
 
 # reboot!
 sudo shutdown -r 0
-
