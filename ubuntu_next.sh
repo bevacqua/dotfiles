@@ -46,6 +46,9 @@ wget -O - https://www.hipchat.com/keys/hipchat-linux.key | apt-key add -
 sudo apt-get update
 sudo apt-get install hipchat -y
 
+# xchat irc
+sudo apt-get install xchat-gnome xchat-gnome-indicator -y
+
 # zsh, fancy zsh
 cp agnork.zsh-theme ~/.oh-my-zsh/themes/
 sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnork\"' ~/.zshrc
