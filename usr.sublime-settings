@@ -13,6 +13,7 @@
         "*.ttf",
         "*.ico",
         "*.pdf",
+        "*.pdn",
         "bin/*"
     ],
     "folder_exclude_patterns": [
