@@ -13,11 +13,11 @@
         "*.ttf",
         "*.ico",
         "*.pdf",
+        "bin/*"
     ],
     "folder_exclude_patterns": [
         ".git",
         "node_modules",
-        "bower_components",
-        "bin"
+        "bower_components"
     ]
 }
