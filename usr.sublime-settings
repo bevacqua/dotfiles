@@ -1,9 +1,23 @@
 {
-    "ignored_packages":
-    [
+    "font_size": 12,
+    "ignored_packages": [
         "Vintage"
     ],
-    "font_size": 12,
     "save_on_focus_lost": true,
-    "update_check": false
+    "update_check": false,
+    "binary_file_patterns": [
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.gif",
+        "*.ttf",
+        "*.ico",
+        "*.pdf",
+    ],
+    "folder_exclude_patterns": [
+        ".git",
+        "node_modules",
+        "bower_components",
+        "bin"
+    ]
 }
