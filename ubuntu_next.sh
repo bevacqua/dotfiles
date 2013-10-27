@@ -54,6 +54,7 @@ cp agnork.zsh-theme ~/.oh-my-zsh/themes/
 sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnork\"' ~/.zshrc
 sed -i '/COMPLETION_WAITING_DOTS=/c\COMPLETION_WAITING_DOTS=\"true\"' ~/.zshrc
 sed -i '/DISABLE_CORRECTION=/c\DISABLE_CORRECTION=\"true\"' ~/.zshrc
+sed -i '/DISABLE_AUTO_UPDATE=/c\DISABLE_AUTO_UPDATE=\"true\"' ~/.zshrc
 
 # .usrrc
 echo "export EDITOR=subl" >> ~/.usrrc
