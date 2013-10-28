@@ -99,5 +99,3 @@ sh ./ubuntu_dev.sh
 
 # install utility packages
 sh ./ubuntu_utils.sh
-
-exit 0
