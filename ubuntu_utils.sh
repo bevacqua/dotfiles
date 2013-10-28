@@ -18,5 +18,8 @@ sudo apt-get install xchat-gnome xchat-gnome-indicator -y
 # gimp
 sudo apt-get install gimp -y
 
+# inkscape
+sudo apt-get install inkscape -y
+
 # vlc
 sudo apt-get install vlc browser-plugin-vlc -y
