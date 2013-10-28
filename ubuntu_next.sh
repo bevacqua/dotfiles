@@ -39,16 +39,6 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo apt-get update
 sudo apt-get install sublime-text-installer
 
-# hipchat
-echo "deb http://downloads.hipchat.com/linux/apt stable main" > \
-  /etc/apt/sources.list.d/atlassian-hipchat.list
-wget -O - https://www.hipchat.com/keys/hipchat-linux.key | apt-key add -
-sudo apt-get update
-sudo apt-get install hipchat -y
-
-# xchat irc
-sudo apt-get install xchat-gnome xchat-gnome-indicator -y
-
 # zsh, fancy zsh
 cp agnork.zsh-theme ~/.oh-my-zsh/themes/
 sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnork\"' ~/.zshrc
