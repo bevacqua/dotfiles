@@ -79,7 +79,8 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 source ~/.zshrc
 
 # node
-nvm install 0.10.20
+nvm install 0.10.21
+nvm alias default 0.10.21
 
 # npm
 npm install -g bower grunt-cli nodemon
@@ -92,6 +93,9 @@ npm install -g bower grunt-cli nodemon
 
 ## change keyboard layout
 # dpkg-reconfigure keyboard-configuration
+
+# install development languages, and db engines
+sh ./ubuntu_dev.sh
 
 # install utility packages
 sh ./ubuntu_utils.sh
