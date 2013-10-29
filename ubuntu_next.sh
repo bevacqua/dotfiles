@@ -1,22 +1,25 @@
 #!/bin/zsh
 
 # essentials
-sudo apt-get install build-essential libssl-dev curl -y
+sudo apt-get install -y build-essential libssl-dev curl
 
 # ruby
-sudo apt-get install rubygems -y --force-yes
+sudo apt-get install -y rubygems --force-yes
 
 # pip
-sudo apt-get install python-pip -y --force-yes
+sudo apt-get install -y python-pip --force-yes
 
 # gm
-sudo apt-get install -qqy graphicsmagick
+sudo apt-get install -yqq graphicsmagick
 
 # gnome-do
-sudo apt-get install gnome-do -y --force-yes
+sudo apt-get install -y gnome-do --force-yes
+
+# mercurial
+sudo apt-get install -y mercurial
 
 # git
-sudo apt-get install git-core -y
+sudo apt-get install -y git-core
 git config --global user.name "Nicolas Bevacqua"
 git config --global user.email "nicolasbevacqua@gmail.com"
 git config --global credential.helper store
@@ -35,7 +38,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome*.deb
 
 # sublime text 3
-sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
 
@@ -58,9 +61,16 @@ echo "\nsource ~/.usrrc" >> ~/.zshrc
 # powerline
 pip install --user git+git://github.com/Lokaltog/powerline
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
-mkdir -p ~/.fonts/ && mv PowerlineSymbols.otf ~/.fonts/
+mkdir -p ~/.fonts/
+mv PowerlineSymbols.otf ~/.fonts/
 fc-cache -vf ~/.fonts
-mkdir -p ~/.config/fontconfig/conf.d/ && mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+mkdir -p ~/.config/fontconfig/conf.d/
+mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+
+# google web fonts
+curl -L https://github.com/w0ng/googlefontdirectory/tarball/master > ~/.fonts/gwf.tar.gz
+tar -zxvf ~/.fonts/gwf.tar.gz
+fc-cache -vf ~/.fonts
 
 # nvm
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
