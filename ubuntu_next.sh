@@ -69,7 +69,8 @@ mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 
 # google web fonts
 curl -L https://github.com/w0ng/googlefontdirectory/tarball/master > ~/.fonts/gwf.tar.gz
-tar -zxvf ~/.fonts/gwf.tar.gz
+mkdir ~/.fonts/gwf
+tar -zxvf ~/.fonts/gwf.tar.gz --directory ~/.fonts/gwf
 fc-cache -vf ~/.fonts
 
 # nvm
