@@ -25,6 +25,7 @@ git config --global user.email "nicolasbevacqua@gmail.com"
 git config --global credential.helper store
 git config --global push.default simple
 git config --global branch.autosetuprebase always
+git config --global color.ui auto
 
 # hub utility
 sudo gem install hub
