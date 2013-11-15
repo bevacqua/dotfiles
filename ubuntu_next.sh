@@ -33,6 +33,9 @@ mkdir -p ~/bin
 hub hub standalone > ~/bin/hub && chmod +x ~/bin/hub
 git config --global hub.protocol https
 
+# ssh
+echo "\nVisualHostKey=yes\n" >> ~/.ssh/config
+
 # chrome
 sudo apt-get install libxss1
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -86,6 +89,9 @@ nvm alias default 0.10.21
 
 # npm
 npm install -g bower grunt-cli nodemon
+
+# grunt shell completion
+echo "\neval \"\$(grunt --completion=zsh)\"" >> ~/.usrrc
 
 ## npm
 # npm adduser
