@@ -91,7 +91,10 @@ nvm alias default 0.10.21
 npm install -g bower grunt-cli nodemon
 
 # grunt shell completion
-echo "\neval \"\$(grunt --completion=zsh)\"" >> ~/.usrrc
+echo "\n# grunt shell completion\neval \"\$(grunt --completion=zsh)\"" >> ~/.usrrc
+
+# refresh configuration
+source ~/.zshrc
 
 ## npm
 # npm adduser
