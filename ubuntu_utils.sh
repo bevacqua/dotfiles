@@ -23,3 +23,8 @@ sudo apt-get install inkscape -y
 
 # vlc
 sudo apt-get install vlc browser-plugin-vlc -y
+
+# sticky notes
+sudo add-apt-repository ppa:umang/indicator-stickynotes -y
+sudo apt-get update
+sudo apt-get install indicator-stickynotes
