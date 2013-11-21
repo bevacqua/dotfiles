@@ -1,0 +1,26 @@
+{
+    "binary_file_patterns":
+    [
+        "_unused_*.jpg",
+        "_unused_*.jpeg",
+        "_unused_*.png",
+        "_unused_*.gif",
+        "_unused_*.ttf",
+        "_unused_*.ico",
+        "_unused_*.pdf",
+        "_unused_*.pdn"
+    ],
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "node_modules"
+    ],
+    "font_face": "Meslo LG S",
+    "font_size": 11.5,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "save_on_focus_lost": true,
+    "update_check": false
+}

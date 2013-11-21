@@ -1,5 +1,12 @@
 #!/bin/zsh
 
+pushd `dirname $0` > /dev/null
+PWD=`pwd -P`
+popd > /dev/null
+
+NAME = 'Nicolas Bevacqua'
+EMAIL = 'nicolasbevacqua@gmail.com'
+
 # essentials
 sudo apt-get install -y build-essential libssl-dev curl
 
@@ -20,12 +27,15 @@ sudo apt-get install -y mercurial
 
 # git
 sudo apt-get install -y git-core
-git config --global user.name "Nicolas Bevacqua"
-git config --global user.email "nicolasbevacqua@gmail.com"
+git config --global user.name "$NAME"
+git config --global user.email "$EMAIL"
 git config --global credential.helper store
 git config --global push.default simple
 git config --global branch.autosetuprebase always
 git config --global color.ui auto
+
+# git-flow
+sudo apt-get install git-flow
 
 # hub utility
 sudo gem install hub
@@ -34,7 +44,7 @@ hub hub standalone > ~/bin/hub && chmod +x ~/bin/hub
 git config --global hub.protocol https
 
 # ssh
-echo "\nVisualHostKey=yes\n" >> ~/.ssh/config
+ln -sfn ~/.ssh/config $PWD/ssh/config
 
 # chrome
 sudo apt-get install libxss1
@@ -45,22 +55,11 @@ dpkg -i google-chrome*.deb
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
+ln -sfn ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings $PWD/st3/
 
 # zsh, fancy zsh
-cp agnork.zsh-theme ~/.oh-my-zsh/themes/
-sed -i '/ZSH_THEME=/c\ZSH_THEME=\"agnork\"' ~/.zshrc
-sed -i '/COMPLETION_WAITING_DOTS=/c\COMPLETION_WAITING_DOTS=\"true\"' ~/.zshrc
-sed -i '/DISABLE_CORRECTION=/c\DISABLE_CORRECTION=\"true\"' ~/.zshrc
-sed -i '/DISABLE_AUTO_UPDATE=/c\DISABLE_AUTO_UPDATE=\"true\"' ~/.zshrc
-
-# .usrrc
-echo "export EDITOR=subl" >> ~/.usrrc
-echo "\nalias open=\"xdg-open\"" >> ~/.usrrc
-echo "\nalias usrconfig=\"\$EDITOR ~/.usrrc\"" >> ~/.usrrc
-echo "\nalias zshconfig=\"\$EDITOR ~/.zshrc\"" >> ~/.usrrc
-echo "\n. ~/.nvm/nvm.sh" >> ~/.usrrc
-
-echo "\nsource ~/.usrrc" >> ~/.zshrc
+ln -sfn ~/.oh-my-zsh/themes/agnork.zsh-theme $PWD/zsh/agnork.zsh-theme
+ln -sfn ~/.zshrc $PWD/zsh/config
 
 # powerline
 pip install --user git+git://github.com/Lokaltog/powerline
@@ -90,9 +89,6 @@ nvm alias default 0.10.21
 # npm
 npm install -g bower grunt-cli nodemon
 
-# grunt shell completion
-echo "\n# grunt shell completion\neval \"\$(grunt --completion=zsh)\"" >> ~/.usrrc
-
 # refresh configuration
 source ~/.zshrc
 
@@ -105,7 +101,7 @@ source ~/.zshrc
 ## change keyboard layout
 # dpkg-reconfigure keyboard-configuration
 
-# install development languages, and db engines
+# install development languages, clis, db engines, and so on
 sh ./ubuntu_dev.sh
 
 # install utility packages
