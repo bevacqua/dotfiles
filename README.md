@@ -1,7 +1,8 @@
-dotfiles
-========
+# dotfiles
 
-#### Ubuntu
+> These are my personal dotfiles, used to bootstrap and configure Ubuntu boxes
+
+## Ubuntu
 
 ````shell
 sudo sh ubuntu.sh
@@ -13,9 +14,10 @@ then, _(after restart)_
 sudo sh ubuntu_next.sh
 ```
 
-##### Manual Steps
+### Manual Steps
 
 - Follow instructions on [ST3 site](https://sublime.wbond.net/installation#ST3) to install **Package Control**.
+- Profit
 
 # License
 
