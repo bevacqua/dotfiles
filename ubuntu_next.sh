@@ -86,7 +86,7 @@ nvm install 0.10.21
 nvm alias default 0.10.21
 
 # npm
-npm install -g bower grunt-cli nodemon
+npm install -g bower grunt-cli nodemon jshint paqui
 
 # refresh configuration
 source ~/.zshrc
