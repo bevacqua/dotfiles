@@ -8,3 +8,6 @@ sudo apt-get install mongodb-10gen
 
 # install heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# aws-cli
+pip install awscli --upgrade

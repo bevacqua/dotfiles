@@ -1,11 +1,13 @@
 #!/bin/zsh
 
+# configuration
+NAME = 'Nicolas Bevacqua'
+EMAIL = 'nicolasbevacqua@gmail.com'
+
+# get process working directory
 pushd `dirname $0` > /dev/null
 PWD=`pwd -P`
 popd > /dev/null
-
-NAME = 'Nicolas Bevacqua'
-EMAIL = 'nicolasbevacqua@gmail.com'
 
 # essentials
 sudo apt-get install -y build-essential libssl-dev curl
@@ -36,6 +38,7 @@ git config --global color.ui auto
 
 # git-flow
 sudo apt-get install git-flow
+ln -sfn $PWD/zsh/git-flow-completion.zsh ~/.git-flow-completion.zsh
 
 # hub utility
 sudo gem install hub
@@ -44,22 +47,18 @@ hub hub standalone > ~/bin/hub && chmod +x ~/bin/hub
 git config --global hub.protocol https
 
 # ssh
-ln -sfn ~/.ssh/config $PWD/ssh/config
-
-# chrome
-sudo apt-get install libxss1
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-dpkg -i google-chrome*.deb
+ln -sfn $PWD/ssh/config ~/.ssh/config
 
 # sublime text 3
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
-ln -sfn ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings $PWD/st3/
+
+ln -sfn $PWD/st3/preferences ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 
 # zsh, fancy zsh
-ln -sfn ~/.oh-my-zsh/themes/agnork.zsh-theme $PWD/zsh/agnork.zsh-theme
-ln -sfn ~/.zshrc $PWD/zsh/config
+ln -sfn $PWD/zsh/agnork.zsh-theme ~/.oh-my-zsh/themes/agnork.zsh-theme
+ln -sfn $PWD/zsh/config ~/.zshrc
 
 # powerline
 pip install --user git+git://github.com/Lokaltog/powerline

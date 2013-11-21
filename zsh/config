@@ -49,4 +49,8 @@ alias zshconfig="$EDITOR ~/.zshrc"
 
 . ~/.nvm/nvm.sh
 
+# grunt completion
 eval "$(grunt --completion=zsh)"
+
+# git-flow completion
+source ~/.git-flow-completion.zsh
