@@ -1,0 +1,2 @@
+# normalize open to Mac-style
+alias open="xdg-open"
