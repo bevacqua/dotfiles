@@ -1,17 +1,19 @@
 # dotfiles
 
-> These are my personal dotfiles, used to bootstrap and configure Ubuntu boxes
+> These are my personal dotfiles, used to bootstrap and configure developer boxes
 
-## Ubuntu
+### On Ubuntu Boxes
+
+Install `zsh`, which requires a _reboot_.
 
 ````shell
-sudo sh ubuntu.sh
+sudo sh ./ubuntu/zsh.sh
 ````
 
-then, _(after restart)_
+After boot, install everything else.
 
 ```shell
-sudo sh ubuntu_next.sh
+sudo sh ./ubuntu.sh
 ```
 
 ### Manual Steps
