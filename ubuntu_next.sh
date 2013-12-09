@@ -58,7 +58,7 @@ ln -sfn $PWD/st3/preferences ~/.config/sublime-text-3/Packages/User/Preferences.
 
 # zsh, fancy zsh
 ln -sfn $PWD/zsh/agnork.zsh-theme ~/.oh-my-zsh/themes/agnork.zsh-theme
-ln -sfn $PWD/zsh/config ~/.zshrc
+echo "source $PWD/zsh/config" > ~/.zshrc
 
 # powerline
 pip install --user git+git://github.com/Lokaltog/powerline
