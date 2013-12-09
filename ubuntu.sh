@@ -12,7 +12,6 @@ read -p "Mail ($DEFAULT_EMAIL): " EMAIL
 EMAIL=${EMAIL:-$DEFAULT_EMAIL}
 echo $EMAIL
 
-
 # get process working directory
 pushd `dirname $0` > /dev/null
 PWD=`pwd -P`
