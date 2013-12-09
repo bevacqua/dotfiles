@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Getting oh-my-zsh to work in Ubuntu
+# https://gist.github.com/tsabat/1498393
+
 # zsh
 sudo apt-get update
 sudo apt-get install zsh
