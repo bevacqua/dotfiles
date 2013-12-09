@@ -58,6 +58,8 @@ eval "$(grunt --completion=zsh)"
 # git-flow completion
 source ~/.git-flow-completion.zsh
 
+ZSHFILES="$(dirname "$(readlink ~/.zshrc)")"
+
 # OS-specific configuration
-[[ $(uname -s) == 'Linux' ]] && source ./zsh/config.ubuntu
-[[ $(uname -s) == 'Darwin' ]] && source ./zsh/config.mac
+[[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
+[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.mac
