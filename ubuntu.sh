@@ -94,9 +94,6 @@ source ~/.zshrc
 nvm install 0.10.22
 nvm alias default 0.10.22
 
-# npm
-npm install -g bower grunt-cli nodemon jshint
-
 # refresh configuration
 source ~/.zshrc
 
