@@ -10,18 +10,20 @@ Much needed requisites
 - `git`, `hg`, also GitHub's [`hub`](http://hub.github.com/) CLI utility
 
 Package managers!
-    - RubyGems with the `gem` CLI
-    - Python with the `pip` CLI
-    - JavaScript with [`bower`](http://bower.io/), [`npm`](http://npmjs.org/), or [`component`](http://component.io/), your pick!
 
-- Power Tools
-    - [**Sublime Text 3**](http://www.sublimetext.com/3) with some defaults you can change at `st3/preferences`
-    - `zsh`, courtesy of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh "A community-driven framework for managing your zsh configuration")
-    - Your shell gets a pretty awesome treatment (see screenshot below)
-        - `git-flow` out the box
-        - `zshconfig` alias to hack on settings
-        - `open` alias to `xdg-open` on Ubuntu
-        - A neat and unobtrusive `zsh` theme!
+- RubyGems with the `gem` CLI
+- Python with the `pip` CLI
+- JavaScript with [`bower`](http://bower.io/), [`npm`](http://npmjs.org/), or [`component`](http://component.io/), your pick!
+
+Power Tools
+
+- [**Sublime Text 3**](http://www.sublimetext.com/3) with some defaults you can change at `st3/preferences`
+- `zsh`, courtesy of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh "A community-driven framework for managing your zsh configuration")
+- Your shell gets a pretty awesome treatment (see screenshot below)
+    - `git-flow` out the box
+    - `zshconfig` alias to hack on settings
+    - `open` alias to `xdg-open` on Ubuntu
+    - A neat and unobtrusive `zsh` theme!
 
 Niceties
 
