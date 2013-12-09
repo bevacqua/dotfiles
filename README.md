@@ -68,6 +68,10 @@ After boot, install everything else.
 sudo sh ./ubuntu.sh
 ```
 
+Result!
+
+![shell.png][1]
+
 ### Manual Steps
 
 - Follow instructions on [ST3 site](https://sublime.wbond.net/installation#ST3) to install **Package Control**.
@@ -76,3 +80,5 @@ sudo sh ./ubuntu.sh
 # License
 
 MIT
+
+  [1]: https://raw.github.com/bevacqua/dotfiles/master/ubuntu/shell.png
