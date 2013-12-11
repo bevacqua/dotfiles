@@ -68,6 +68,8 @@ ln -sfn $PWD/st3/preferences ~/.config/sublime-text-3/Packages/User/Preferences.
 ln -sfn $PWD/zsh/agnork.zsh-theme ~/.oh-my-zsh/themes/agnork.zsh-theme
 ln -sfn $PWD/zsh/config ~/.zshrc
 
+echo "# insert machine-specific configuration here" > ~/.zshrc.user
+
 # powerline
 pip install --user git+git://github.com/Lokaltog/powerline
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
