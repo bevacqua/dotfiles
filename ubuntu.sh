@@ -3,6 +3,7 @@
 # configuration
 DEFAULT_NAME="Nicolas Bevacqua"
 DEFAULT_EMAIL="nicolasbevacqua@gmail.com"
+DEFAULT_WEBSITE="http://bevacqua.io"
 
 read -p "Name ($DEFAULT_NAME): " NAME
 NAME=${NAME:-$DEFAULT_NAME}
@@ -11,6 +12,10 @@ echo $NAME
 read -p "Mail ($DEFAULT_EMAIL): " EMAIL
 EMAIL=${EMAIL:-$DEFAULT_EMAIL}
 echo $EMAIL
+
+read -p "Site ($DEFAULT_WEBSITE): " SITE
+SITE=${SITE:-$DEFAULT_WEBSITE}
+echo $SITE
 
 # get process working directory
 pushd `dirname $0` > /dev/null
@@ -96,6 +101,12 @@ nvm alias default 0.10.22
 # refresh configuration
 source ~/.zshrc
 
+# add author info to npm
+npm set init.author.name "$NAME"
+npm set init.author.email "$EMAIL"
+npm set init.author.url "$SITE"
+npm adduser
+
 # install development languages, clis, db engines, and so on
 sh ./ubuntu/install_dev.sh
 
@@ -103,6 +114,5 @@ sh ./ubuntu/install_dev.sh
 sh ./ubuntu/install_utils.sh
 
 ## recommend post-install commands
-echo "Use \`npm adduser\` to authenticate on npm"
 echo "Use \`dpkg-reconfigure tzdata\` to pick your time zone"
 echo "Use \`dpkg-reconfigure keyboard-configuration\` to pick your keyboard layout"
