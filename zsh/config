@@ -41,7 +41,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize path
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk
+export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$JAVA_HOME/bin
 
 # set default editor
 export EDITOR="subl -w"

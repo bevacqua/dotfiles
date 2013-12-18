@@ -14,3 +14,6 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # aws-cli
 pip install awscli --upgrade
+
+# java
+sudo apt-get install openjdk-7-jdk -y
