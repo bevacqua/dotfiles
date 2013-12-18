@@ -104,6 +104,7 @@ nvm alias default 0.10.23
 source ~/.zshrc
 
 # add author info to npm
+echo "Adding npm publisher information"
 npm set init.author.name "$NAME"
 npm set init.author.email "$EMAIL"
 npm set init.author.url "$SITE"
