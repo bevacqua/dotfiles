@@ -50,10 +50,10 @@ export EDITOR="subl -w"
 alias zshconfig="$EDITOR ~/.zshrc"
 
 # node version manager
-. ~/.nvm/nvm.sh
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
 
 # grunt completion
-eval "$(grunt --completion=zsh)"
+eval $(grunt --completion=zsh || echo echo "Install Grunt CLI: npm i -g grunt-cli")
 
 # git-flow completion
 source ~/.git-flow-completion.zsh

@@ -10,6 +10,7 @@
 		"_unused_*.pdf",
 		"_unused_*.pdn"
 	],
+	"color_scheme": "Packages/Theme - itg.flat/itg.Monokai.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".git",
@@ -21,6 +22,8 @@
 	[
 		"Vintage"
 	],
+	"itg_small_tabs": true,
 	"save_on_focus_lost": true,
+	"theme": "itg.flat.dark.sublime-theme",
 	"update_check": false
 }
