@@ -84,3 +84,8 @@ Result!
 MIT
 
   [1]: https://raw.github.com/bevacqua/dotfiles/master/ubuntu/shell.png
+
+
+Mac (some day)
+
+- https://github.com/sindresorhus/quick-look-plugins
