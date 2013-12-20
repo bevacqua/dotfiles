@@ -53,6 +53,9 @@ git config --global color.ui auto
 sudo apt-get install git-flow
 ln -sfn $PWD/zsh/git-flow-completion.zsh ~/.git-flow-completion.zsh
 
+# git-extras
+(cd /tmp && git clone --depth 1 https://github.com/visionmedia/git-extras.git && cd git-extras && sudo make install)
+
 # hub utility
 sudo gem install hub
 mkdir -p ~/bin
