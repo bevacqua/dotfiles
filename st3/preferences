@@ -10,7 +10,7 @@
 		"_unused_*.pdf",
 		"_unused_*.pdn"
 	],
-	"color_scheme": "Packages/Theme - itg.flat/itg.Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".git",
