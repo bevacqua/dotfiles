@@ -54,7 +54,7 @@ alias zshconfig="$EDITOR ~/.zshrc"
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
 
 # npm completion
-eval "$(npm completion -)"
+eval "$(npm completion)"
 
 # grunt completion
 eval "$(grunt --completion=zsh || echo echo "Install Grunt CLI: npm i -g grunt-cli")"
