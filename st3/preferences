@@ -10,7 +10,6 @@
 		"_unused_*.pdf",
 		"_unused_*.pdn"
 	],
-	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".git",
@@ -18,14 +17,14 @@
 	],
 	"font_face": "Meslo LG S",
 	"font_size": 11.5,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"itg_small_tabs": true,
+	"remember_open_files": false,
 	"save_on_focus_lost": true,
 	"theme": "itg.flat.dark.sublime-theme",
-	"update_check": false,
-    "hot_exit": false,
-    "remember_open_files": false
+	"update_check": false
 }
