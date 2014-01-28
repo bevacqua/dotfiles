@@ -22,9 +22,7 @@
 	[
 		"Vintage"
 	],
-	"itg_small_tabs": true,
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
-	"theme": "itg.flat.dark.sublime-theme",
 	"update_check": false
 }
