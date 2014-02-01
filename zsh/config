@@ -89,7 +89,10 @@ ZSHFILES="$(dirname "$(readlink ~/.zshrc)")"
 
 # TODO
 todo () {
-	touch ~/Desktop/$1
+	IFS_OLD="$IFS"
+	IFS=$'\n'
+	touch $(echo ~/Desktop/$@ | sed -e 's/ /\ /g')
+	IFS="$IFS_OLD"
 }
 
 # machine-specific configuration
