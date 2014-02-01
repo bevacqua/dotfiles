@@ -87,5 +87,10 @@ ZSHFILES="$(dirname "$(readlink ~/.zshrc)")"
 [[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
 [[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.mac
 
+# TODO
+todo () {
+	touch ~/Desktop/$1
+}
+
 # machine-specific configuration
 source ~/.zshrc.user
