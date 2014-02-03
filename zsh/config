@@ -47,20 +47,8 @@ export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/s
 # set default editor
 export EDITOR="subl -w"
 
-# convenience alias
-alias zshconfig="$EDITOR ~/.zshrc"
-
 # node version manager
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
-
-# npm completion
-eval "$(npm completion)"
-
-# grunt completion
-eval "$(grunt --completion=zsh || echo echo "Install Grunt CLI: npm i -g grunt-cli")"
-
-# git-flow completion
-source ~/.git-flow-completion.zsh
 
 ZSHFILES="$(dirname "$(readlink ~/.zshrc)")"
 
@@ -68,13 +56,8 @@ ZSHFILES="$(dirname "$(readlink ~/.zshrc)")"
 [[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
 [[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.mac
 
-# TODO
-todo () {
-	IFS_OLD="$IFS"
-	IFS=$'\n'
-	touch $(echo ~/Desktop/$@)
-	IFS="$IFS_OLD"
-}
+source $ZSHFILES/completion
+source $ZSHFILES/aliases
 
 # machine-specific configuration
 source ~/.zshrc.user

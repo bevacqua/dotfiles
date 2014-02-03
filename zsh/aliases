@@ -1,0 +1,10 @@
+# convenience alias
+alias zshconfig="$EDITOR ~/.zshrc"
+
+# TODO
+todo () {
+    IFS_OLD="$IFS"
+    IFS=$'\n'
+    touch $(echo ~/Desktop/$@)
+    IFS="$IFS_OLD"
+}

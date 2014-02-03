@@ -1,0 +1,8 @@
+# npm completion
+eval "$(npm completion)"
+
+# grunt completion
+eval "$(grunt --completion=zsh || echo echo "Install Grunt CLI: npm i -g grunt-cli")"
+
+# git-flow completion
+source ~/.git-flow-completion.zsh
