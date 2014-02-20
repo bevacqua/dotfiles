@@ -56,7 +56,7 @@ Random things probably only I care about
 - [heroku](https://toolbelt.heroku.com/) CLI tools
 - The Amazon Web Services CLI, [aws-cli](http://aws.amazon.com/cli/)
 
-### On Ubuntu Boxes
+# Install On Ubuntu
 
 Install `zsh`, which requires a _reboot_.
 
@@ -73,6 +73,12 @@ sudo sh ./ubuntu.sh
 Result!
 
 ![shell.png][1]
+
+# Install On OSX
+
+```shell
+sudo sh ./osx.sh
+```
 
 ### Manual Steps
 
