@@ -10,13 +10,18 @@
 		"_unused_*.pdf",
 		"_unused_*.pdn"
 	],
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".git",
 		"node_modules"
 	],
 	"font_face": "Meslo LG S",
-	"font_size": 11.5,
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12.5,
 	"hot_exit": false,
 	"ignored_packages":
 	[
