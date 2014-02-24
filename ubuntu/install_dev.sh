@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # npm global CLI treats
-npm install -g jshint eslint bower component yo grunt-cli grunt-init nodemon pm2 static-server
+npm install -g json jshint eslint bower component yo grunt-cli grunt-init nodemon pm2 static-server
 
 # install mongodb
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
