@@ -118,10 +118,10 @@ npm adduser
 
 # install development languages, clis, db engines, and so on
 sh ./installation/dev.sh
-sh ./ubuntu/installation/dev.sh
+sh ./ubuntu/dev.sh
 
 # install programs
-sh ./ubuntu/installation/programs.sh
+sh ./ubuntu/programs.sh
 
 ## recommend post-install commands
 echo "Use \`dpkg-reconfigure tzdata\` to pick your time zone"
