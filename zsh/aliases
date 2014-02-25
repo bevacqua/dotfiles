@@ -9,3 +9,5 @@ todo () {
     touch $(echo ~/Desktop/$@)
     IFS="$IFS_OLD"
 }
+
+alias dotfiles="open $DOTFILES"

@@ -1,3 +1,5 @@
+DOTFILES="$(dirname "$(dirname "$(readlink ~/.zshrc)")")"
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -50,7 +52,7 @@ export EDITOR="subl -w"
 # node version manager
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
 
-ZSHFILES="$(dirname "$(readlink ~/.zshrc)")"
+ZSHFILES="$DOTFILES/zsh"
 
 # OS-specific configuration
 [[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu

@@ -117,10 +117,11 @@ npm set init.author.url "$SITE"
 npm adduser
 
 # install development languages, clis, db engines, and so on
-sh ./ubuntu/install_dev.sh
+sh ./installation/dev.sh
+sh ./ubuntu/installation/dev.sh
 
-# install utility packages
-sh ./ubuntu/install_utils.sh
+# install programs
+sh ./ubuntu/installation/programs.sh
 
 ## recommend post-install commands
 echo "Use \`dpkg-reconfigure tzdata\` to pick your time zone"

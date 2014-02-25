@@ -32,13 +32,3 @@ sudo apt-get install vlc browser-plugin-vlc -y
 sudo add-apt-repository ppa:umang/indicator-stickynotes -y
 sudo apt-get update
 sudo apt-get install indicator-stickynotes
-
-# bitcoin
-# sudo add-apt-repository ppa:bitcoin/bitcoin -y
-# sudo apt-get update
-# sudo apt-get install bitcoin-qt -y
-
-# bfgminer
-# sudo add-apt-repository ppa:unit3/bfgminer -y
-# sudo apt-get update
-# sudo apt-get install bfgminer -y
