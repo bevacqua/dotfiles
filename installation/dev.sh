@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+# Requires OS-specific script to install npm, pip
+
 # npm global CLI treats
 npm install -g json
 npm install -g jshint
