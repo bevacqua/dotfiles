@@ -18,5 +18,5 @@ npm install -g static-server
 # aws-cli
 pip install awscli --upgrade
 
-# gist
+# gist CLI
 sudo gem install gist

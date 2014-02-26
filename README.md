@@ -33,6 +33,8 @@ sudo sh ./osx.sh
 ### Customization
 
 - Anything placed in `~/.zshrc.user` will run on every shell instance
+- You can open that file using the `dotconfig` alias
+- You can check out the distributed `~/.zshrc` file with the `zshconfig` alias, but it's recommended you don't change them **(if you must, fork this project)**
 
 # License
 

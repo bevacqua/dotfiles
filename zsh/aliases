@@ -1,6 +1,6 @@
 # convenience alias
 alias zshconfig="$EDITOR ~/.zshrc"
-alias zshconfiguser="$EDITOR ~/.zshrc.user"
+alias dotconfig="$EDITOR ~/.zshrc.user"
 
 # TODO
 todo () {
