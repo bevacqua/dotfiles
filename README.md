@@ -45,4 +45,4 @@ MIT
 - https://github.com/sindresorhus/quick-look-plugins
 
 [1]: FEATURES.md
-[2]: https://raw.github.com/bevacqua/dotfiles/master/ubuntu/shell.png
+[2]: https://raw.github.com/bevacqua/dotfiles/master/images/ubuntu.png
