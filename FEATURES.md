@@ -37,7 +37,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - [`pm2`](https://github.com/Unitech/pm2)
 - [`static-server`](https://github.com/nbluis/static-server)
 - [`subl`](http://www.sublimetext.com/3)
-- [`yo` _(yeoman)_](https://github.com/yeoman/yo)
+- [`yo`](https://github.com/yeoman/yo) <sub>_(yeoman)_</sub>
 
 - _...and many more_
 
