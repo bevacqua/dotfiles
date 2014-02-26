@@ -30,7 +30,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - [`grunt-init`](https://github.com/gruntjs/grunt-init)
 - [`jshint`](http://www.jshint.com/)
 - [`json`](https://github.com/zpoley/json-command)
-- [`node`](http://nodejs.org) <sub>(through `nvm`)</sub>
+- [`node`](http://nodejs.org) <sub>_(through `nvm`)_</sub>
 - [`nodemon`](https://github.com/remy/nodemon)
 - [`npm`](http://npmjs.org/)
 - [`nvm`](https://github.com/creationix/nvm)
