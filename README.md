@@ -18,7 +18,7 @@ After boot, install everything else.
 sudo sh ./ubuntu.sh
 ```
 
-![shell.png][1]
+![shell.png][2]
 
 # Install On OSX
 
@@ -40,11 +40,9 @@ sudo sh ./osx.sh
 
 MIT
 
-  [1]: https://raw.github.com/bevacqua/dotfiles/master/ubuntu/shell.png
-
-
-Mac (some day)
+# OSX (coming soon)
 
 - https://github.com/sindresorhus/quick-look-plugins
 
 [1]: FEATURES.md
+[2]: https://raw.github.com/bevacqua/dotfiles/master/ubuntu/shell.png
