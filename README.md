@@ -26,15 +26,12 @@ sudo sh ./ubuntu.sh
 sudo sh ./osx.sh
 ```
 
-### Manual Steps
-
-- Follow instructions on [ST3 site](https://sublime.wbond.net/installation#ST3) to install **Package Control**
-
 ### Customization
 
 - Anything placed in `~/.zshrc.user` will run on every shell instance
 - You can open that file using the `dotconfig` alias
 - You can check out the distributed `~/.zshrc` file with the `zshconfig` alias, but it's recommended you don't change them **(if you must, fork this project)**
+- I won't install Sublime Text packages for you. You do that. _You did get [`Package Control`][3], though._
 
 # License
 
@@ -46,3 +43,4 @@ MIT
 
 [1]: FEATURES.md
 [2]: https://raw.github.com/bevacqua/dotfiles/master/images/ubuntu.png
+[3]: https://sublime.wbond.net/

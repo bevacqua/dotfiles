@@ -15,4 +15,4 @@ chsh -s /usr/local/bin/zsh $USER
 # take out ubuntu.sh stuff that's common into somewhere else, and use $PWD to source that stuff.
 
 # symbolic link for the subl CLI
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ln -sfn /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
