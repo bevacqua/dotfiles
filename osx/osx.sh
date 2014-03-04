@@ -14,5 +14,9 @@ chsh -s /usr/local/bin/zsh $USER
 
 # take out ubuntu.sh stuff that's common into somewhere else, and use $PWD to source that stuff.
 
+# st3 package control plugin
+# TODO port this to ubuntu, too
+curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+
 # symbolic link for the subl CLI
 ln -sfn /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
