@@ -51,6 +51,9 @@ sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /usr/share/applications/def
 # st3 preferences
 ln -sfn $PWD/st3/preferences ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 
+# st3 package control plugin
+curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
+
 # zsh, fancy zsh
 ln -sfn $PWD/zsh/agnork.zsh-theme ~/.oh-my-zsh/themes/agnork.zsh-theme
 ln -sfn $PWD/zsh/config ~/.zshrc

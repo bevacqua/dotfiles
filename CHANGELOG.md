@@ -1,3 +1,7 @@
+# 0.2.0 Rave Rick
+
+- Added dotfiles for OSX Mavericks, mimicking most of what Ubuntu dotfiles do
+
 # 0.1.1 Klingon Courier
 
 - Improved documentation

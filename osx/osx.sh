@@ -65,15 +65,14 @@ brew cask install sublime-text3
 # st3 preferences
 ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
+# st3 package control plugin
+curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+
 # zsh, fancy zsh
 ln -sfn $PWD/zsh/agnork.zsh-theme ~/.oh-my-zsh/themes/agnork.zsh-theme
 ln -sfn $PWD/zsh/config ~/.zshrc
 
 echo "# insert machine-specific configuration here" > ~/.zshrc.user
-
-# st3 package control plugin
-# TODO port this to ubuntu, too
-curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
 # powerline
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
@@ -106,7 +105,7 @@ npm adduser
 
 # install development languages, clis, db engines, and so on
 sh $PWD/installation/dev.sh
-sh $PWD/ubuntu/dev.sh
+sh $PWD/osx/dev.sh
 
 # install programs
-sh $PWD/ubuntu/programs.sh
+sh $PWD/osx/programs.sh
