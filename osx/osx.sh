@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Latin American keyboard layout
-cp $PWD/osx/latinamerican.keylayout ~/Library/Keyboard\ Layouts
+cp $PWD/osx/support/latinamerican.keylayout ~/Library/Keyboard\ Layouts
 
 # install brew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
@@ -36,6 +36,9 @@ brew install graphicsmagick
 
 # quicksilver
 brew cask install quicksilver
+
+# mercurial
+brew install hg
 
 # git
 brew install git
