@@ -82,7 +82,7 @@ mv PowerlineSymbols.otf ~/Library/Fonts
 # google web fonts
 curl -L https://github.com/w0ng/googlefontdirectory/tarball/master > ~/Library/Fonts/gwf.tar.gz
 mkdir ~/Library/Fonts/gwf
-tar -zxvf ~/Library/Fonts/gwf.tar.gz --directory ~/Library/Fonts/wf
+tar -zxvf ~/Library/Fonts/gwf.tar.gz --directory ~/Library/Fonts/gwf
 
 # nvm
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
