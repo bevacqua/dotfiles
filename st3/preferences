@@ -16,7 +16,7 @@
 		".git",
 		"node_modules"
 	],
-	"font_face": "Meslo LG S",
+	"font_face": "PowerlineSymbols",
 	"font_options":
 	[
 		"subpixel_antialias"
