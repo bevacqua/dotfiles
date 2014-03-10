@@ -80,12 +80,14 @@ echo "# insert machine-specific configuration here" > ~/.zshrc.user
 # powerline
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
 mv PowerlineSymbols.otf ~/Library/Fonts
+fc-cache -vf ~/Library/Fonts
 
 # google web fonts
 curl -L https://github.com/w0ng/googlefontdirectory/tarball/master > ~/Library/Fonts/gwf.tar.gz
 mkdir ~/Library/Fonts/gwf
 tar -zxvf ~/Library/Fonts/gwf.tar.gz --directory ~/Library/Fonts/gwf
 rm ~/Library/Fonts/gwf.tar.gz
+fc-cache -vf ~/Library/Fonts
 
 # nvm
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
