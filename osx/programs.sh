@@ -9,6 +9,9 @@ brew cask install hipchat
 # skype
 brew cask install skype
 
+# openoffice
+brew cask install openoffice
+
 # irc client
 # Textual, you can get it at the App Store
 
