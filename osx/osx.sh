@@ -13,6 +13,15 @@ brew install brew-cask
 # cask versions
 brew tap caskroom/versions
 
+# wget
+brew install wget
+
+# python (pip)
+brew install python
+
+# gm
+brew install graphicsmagick
+
 # iterm
 brew cask install iterm2
 
@@ -24,15 +33,6 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 
 # set zsh as default shell
 chsh -s `which zsh`
-
-# wget
-brew install wget
-
-# python (pip)
-brew install python
-
-# gm
-brew install graphicsmagick
 
 # quicksilver
 brew cask install quicksilver
