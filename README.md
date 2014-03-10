@@ -10,6 +10,8 @@ For a complete feature list, check out [FEATURES.md][1]
 git clone https://github.com/bevacqua/dotfiles.git ~/.dotfiles && sudo sh ~/.dotfiles/osx.sh
 ```
 
+![shell-osx.png][4]
+
 # Install On Ubuntu
 
 Install `zsh`, using the script below, then you need to _reboot_. Apologies!
@@ -24,7 +26,7 @@ After boot, install everything else.
 sudo sh ./ubuntu.sh
 ```
 
-![shell.png][2]
+![shell-ubuntu.png][2]
 
 ### Customization
 
@@ -40,3 +42,4 @@ MIT
 [1]: FEATURES.md
 [2]: https://raw.github.com/bevacqua/dotfiles/master/images/ubuntu.png
 [3]: https://sublime.wbond.net/
+[4]: https://raw.github.com/bevacqua/dotfiles/master/images/osx.png
