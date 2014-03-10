@@ -29,5 +29,6 @@
 	],
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
-	"update_check": false
+	"update_check": false,
+	"close_windows_when_empty": true
 }
