@@ -79,7 +79,9 @@ echo "# insert machine-specific configuration here" > ~/.zshrc.user
 
 # powerline
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
+mkdir ~/Library/Fonts
 mv PowerlineSymbols.otf ~/Library/Fonts
+git clone https://github.com/Lokaltog/powerline-fonts.git ~/Library/Fonts/powerline-fonts
 fc-cache -vf ~/Library/Fonts
 
 # google web fonts
