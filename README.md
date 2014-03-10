@@ -1,6 +1,6 @@
 # dotfiles
 
-> These are my personal dotfiles, used to bootstrap and configure developer boxes
+> These are my personal dotfiles, used to bootstrap and configure development boxes
 
 For a complete feature list, check out [FEATURES.md][1]
 
