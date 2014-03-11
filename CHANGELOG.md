@@ -1,3 +1,7 @@
+# 0.2.1 Garden Hose
+
+- Added `hose` to `npm install` utility belt
+
 # 0.2.0 Rave Rick
 
 - Added dotfiles for OSX Mavericks, mimicking most of what Ubuntu dotfiles do

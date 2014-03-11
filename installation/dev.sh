@@ -14,6 +14,7 @@ npm install -g grunt-init
 npm install -g nodemon
 npm install -g pm2
 npm install -g static-server
+npm install -g hose
 
 # aws-cli
 pip install awscli --upgrade
