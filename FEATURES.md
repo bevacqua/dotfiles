@@ -18,11 +18,12 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - [**Sublime Text 3**](http://www.sublimetext.com/3) with some defaults you can change at `st3/preferences`
 - `zsh`, courtesy of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh "A community-driven framework for managing your zsh configuration")
     - Complete with [`Package Control`](https://sublime.wbond.net/)! **Recommended packages:**
+        - EditorConfig
         - Flatland Dark Theme
+        - Gist
         - SideBarEnhancements
         - TrailingSpaces
-        - EditorConfig
-        - Gist
+        - WordCount
 - Your shell gets a pretty awesome treatment (see screenshot below)
     - A neat and unobtrusive `zsh` theme!
 

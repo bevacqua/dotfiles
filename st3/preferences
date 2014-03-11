@@ -10,6 +10,7 @@
 		"_unused_*.pdf",
 		"_unused_*.pdn"
 	],
+	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
 	"folder_exclude_patterns":
 	[
@@ -29,6 +30,5 @@
 	],
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
-	"update_check": false,
-	"close_windows_when_empty": true
+	"update_check": false
 }
