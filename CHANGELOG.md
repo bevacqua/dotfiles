@@ -1,3 +1,8 @@
+# 0.2.2 Dot dot dot
+
+- Shell `cd` aliases such as `..`, `...`, `....`, etc
+- Recommended `GitGutter` Sublime Text plugin
+
 # 0.2.1 Garden Hose
 
 - Added `hose` to `npm install` utility belt

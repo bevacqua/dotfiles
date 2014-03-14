@@ -21,6 +21,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
         - EditorConfig
         - Flatland Dark Theme
         - Gist
+        - GitGutter
         - SideBarEnhancements
         - TrailingSpaces
         - WordCount
