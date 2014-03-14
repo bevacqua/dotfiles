@@ -64,6 +64,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - [VLC](http://www.videolan.org/vlc/index.html), you know you want it
 - Application Launchers!
     - [gnome-do](https://launchpad.net/do) on Ubuntu
+    - [Quicksilver](http://qsapp.com/) on OSX
 
 ## Database Engines
 
@@ -78,7 +79,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
     - [`xchat`](https://apps.ubuntu.com/cat/applications/precise/xchat/) on Ubuntu
 - Drawing apps
     - [Inkscape](http://inkscape.org/en/)
-    - [Gimp](http://www.gimp.org/) on Ubuntu
+    - [Gimp](http://www.gimp.org/)
 
 ## Random things probably only I care about
 
