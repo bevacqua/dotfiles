@@ -15,6 +15,8 @@ npm install -g nodemon
 npm install -g pm2
 npm install -g static-server
 npm install -g hose
+npm install -g browserify
+npm install -g testling
 
 # aws-cli
 pip install awscli --upgrade
