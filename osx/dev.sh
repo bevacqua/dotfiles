@@ -1,10 +1,13 @@
 #!/bin/zsh
 
-# install mongodb
+# mongodb
 brew install mongodb
 
-# install heroku toolbelt
+# heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install.sh | sh
 
-# install sourcetree
+# sourcetree
 brew cask install sourcetree
+
+# phantomjs
+brew install phantomjs
