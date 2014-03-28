@@ -25,6 +25,9 @@ brew install inkscape
 # vlc
 brew cask install vlc
 
+# utorrent
+brew cask install utorrent
+
 # quick look plugins
 brew cask install qlcolorcode
 brew cask install qlstephen
