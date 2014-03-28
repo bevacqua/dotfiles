@@ -18,6 +18,9 @@ sudo apt-get install -y gnome-do --force-yes
 # mercurial
 sudo apt-get install -y mercurial
 
+# xvfb
+sudo apt-get install xvfb
+
 # git
 sudo apt-get install -y git-core
 git config --global user.name "$NAME"
