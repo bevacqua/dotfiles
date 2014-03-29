@@ -8,3 +8,6 @@ wget -qO- https://toolbelt.heroku.com/install.sh | sh
 
 # install sourcetree
 brew cask install sourcetree
+
+# XAMPP
+brew cask install xampp
