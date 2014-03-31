@@ -62,7 +62,7 @@ prompt_end() {
 prompt_git() {
   local ref dirty
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
-    ZSH_THEME_GIT_PROMPT_DIRTY='±'
+    ZSH_THEME_GIT_PROMPT_DIRTY=' இ'
     dirty=$(parse_git_dirty)
     ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git show-ref --head -s --abbrev |head -n1 2> /dev/null)"
     if [[ -n $dirty ]]; then
@@ -92,13 +92,6 @@ function svn_parse_dirty() {
   return 1
 }
 
-function svn_repo_name() {
-  if svn_is_inside; then
-    svn info | sed -n 's/Repository\ Root:\ .*\///p' | read SVN_ROOT
-    svn info | sed -n "s/URL:\ .*$SVN_ROOT\///p"
-  fi
-}
-
 function svn_branch_name() {
   if svn_is_inside; then
     svn info 2> /dev/null | \
@@ -123,7 +116,7 @@ function svn_rev() {
 
 prompt_svn() {
   if svn_is_inside; then
-    ZSH_THEME_SVN_PROMPT_DIRTY='±'
+    ZSH_THEME_SVN_PROMPT_DIRTY=' இ'
     local ref dirty
     if svn_parse_dirty; then
       dirty=$ZSH_THEME_SVN_PROMPT_DIRTY
@@ -131,7 +124,7 @@ prompt_svn() {
     else
       prompt_segment green black
     fi
-    echo -n "ऽ $(svn_branch_name) $(svn_rev)$dirty"
+    echo -n "Տ $(svn_branch_name) $(svn_rev)$dirty"
   fi
 }
 
