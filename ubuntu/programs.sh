@@ -27,3 +27,6 @@ sudo apt-get install inkscape -y
 
 # vlc
 sudo apt-get install vlc browser-plugin-vlc -y
+
+# screen-casting
+sudo apt-get install gtk-recordmydesktop
