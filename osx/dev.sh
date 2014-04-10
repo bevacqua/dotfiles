@@ -9,5 +9,8 @@ wget -qO- https://toolbelt.heroku.com/install.sh | sh
 # install sourcetree
 brew cask install sourcetree
 
-# XAMPP
-brew cask install xampp
+# MAMP
+brew cask install mamp
+
+# DiffMerge
+brew cask install diffmerge
