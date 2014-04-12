@@ -1,35 +1,35 @@
 {
-	"binary_file_patterns":
-	[
-		"_unused_*.jpg",
-		"_unused_*.jpeg",
-		"_unused_*.png",
-		"_unused_*.gif",
-		"_unused_*.ttf",
-		"_unused_*.ico",
-		"_unused_*.pdf",
-		"_unused_*.pdn"
-	],
-	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
-	"folder_exclude_patterns":
-	[
+    "binary_file_patterns":
+    [
+        "_unused_*.jpg",
+        "_unused_*.jpeg",
+        "_unused_*.png",
+        "_unused_*.gif",
+        "_unused_*.ttf",
+        "_unused_*.ico",
+        "_unused_*.pdf",
+        "_unused_*.pdn"
+    ],
+    "close_windows_when_empty": true,
+    "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+    "folder_exclude_patterns":
+    [
         ".svn",
-		".git",
-		"node_modules"
-	],
-	"font_face": "PowerlineSymbols",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"font_size": 12.5,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"remember_open_files": false,
-	"save_on_focus_lost": true,
-	"update_check": false
+        ".git",
+        "node_modules"
+    ],
+    "font_face": "PowerlineSymbols",
+    "font_options":
+    [
+        "subpixel_antialias"
+    ],
+    "font_size": 12.5,
+    "hot_exit": false,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "remember_open_files": false,
+    "save_on_focus_lost": true,
+    "update_check": false
 }
