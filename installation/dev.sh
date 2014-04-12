@@ -16,6 +16,7 @@ npm install -g pm2
 npm install -g static-server
 npm install -g hose
 npm install -g browserify
+npm install -g watchify
 npm install -g testling
 
 # aws-cli
