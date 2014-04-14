@@ -32,8 +32,9 @@ sudo sh ./ubuntu.sh
 
 - Anything placed in `~/.zshrc.user` will run on every shell instance
 - You can open that file using the `dotconfig` alias
-- You can check out the distributed `~/.zshrc` file with the `zshconfig` alias, but it's recommended you don't change them **(if you must, fork this project)**
-- I won't install Sublime Text packages for you. You do that. _You did get [`Package Control`][3], though._ I have some recommended packages on the [FEATURES][1] document.
+- Open `~/.zshrc` file with the `zshconfig` alias.
+- I won't install Sublime Text packages for you. You do that. _You did get [`Package Control`][3], though._ Recommended packages in [FEATURES][1] document.
+- Want to customize this even further? **Fork this repository!**
 
 # License
 
