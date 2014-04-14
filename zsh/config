@@ -25,7 +25,7 @@ ZSHFILES="$DOTFILES/zsh"
 
 # OS-specific configuration
 [[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
-[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.mac
+[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.osx
 
 source $ZSHFILES/completion
 source $ZSHFILES/aliases
