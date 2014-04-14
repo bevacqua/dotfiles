@@ -23,22 +23,12 @@ sudo apt-get install xvfb
 
 # git
 sudo apt-get install -y git-core
-git config --global user.name "$NAME"
-git config --global user.email "$EMAIL"
-git config --global credential.helper store
-git config --global push.default simple
-git config --global branch.autosetuprebase always
-git config --global color.ui auto
 
 # git-flow
 sudo apt-get install git-flow
-ln -sfn $PWD/zsh/git-flow-completion.zsh ~/.git-flow-completion.zsh
 
-# hub utility
-sudo gem install hub
-mkdir -p ~/bin
-hub hub standalone > ~/bin/hub && chmod +x ~/bin/hub
-git config --global hub.protocol https
+# git configuration + hub
+sh $PWD/installation/configure-git.sh
 
 # ssh
 ln -sfn $PWD/ssh/config ~/.ssh/config
@@ -57,11 +47,8 @@ ln -sfn $PWD/st3/preferences ~/.config/sublime-text-3/Packages/User/Preferences.
 # st3 package control plugin
 curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
 
-# zsh, fancy zsh
-ln -sfn $PWD/zsh/agnork.zsh-theme ~/.oh-my-zsh/themes/agnork.zsh-theme
-ln -sfn $PWD/zsh/config ~/.zshrc
-
-echo "# insert machine-specific configuration here" > ~/.zshrc.user
+# run OS-free scripts
+sh $PWD/installation/universal.sh
 
 # powerline
 pip install --user git+git://github.com/Lokaltog/powerline
@@ -78,25 +65,8 @@ mkdir ~/.fonts/gwf
 tar -zxvf ~/.fonts/gwf.tar.gz --directory ~/.fonts/gwf
 fc-cache -vf ~/.fonts
 
-# nvm
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-
-# refresh configuration
-source ~/.zshrc
-
-# node
-nvm install 0.10.23
-nvm alias default 0.10.23
-
-# refresh configuration
-source ~/.zshrc
-
-# add author info to npm
-echo "Adding npm publisher information"
-npm set init.author.name "$NAME"
-npm set init.author.email "$EMAIL"
-npm set init.author.url "$SITE"
-npm adduser
+# install nodejs
+sh $PWD/installation/node.sh
 
 # install development languages, clis, db engines, and so on
 sh $PWD/installation/dev.sh

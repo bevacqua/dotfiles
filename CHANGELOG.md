@@ -1,3 +1,7 @@
+# 0.2.3 Spread thyself
+
+- Created `installation/{configure-git,node,universal}` with agnostic installation steps
+
 # 0.2.2 Dot dot dot
 
 - Shell `cd` aliases such as `..`, `...`, `....`, etc
