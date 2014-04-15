@@ -57,6 +57,10 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - `dotconfig` alias to hack on custom settings
 - `dotfiles` alias to open dotfiles directory
 - `todo` Creates TODO items in your desktop
+- `..` alias to `cd ..`
+- `...` alias to `cd ../..`
+- `....` alias to `cd ../../..`
+- `.....` alias to `cd ../../../..`
 
 ## Niceties
 
