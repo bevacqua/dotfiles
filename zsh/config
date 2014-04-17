@@ -7,7 +7,6 @@ ZSH_THEME="agnork"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -26,7 +25,7 @@ ZSHFILES="$DOTFILES/zsh"
 
 # OS-specific configuration
 [[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
-[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.mac
+[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.osx
 
 source $ZSHFILES/completion
 source $ZSHFILES/aliases
