@@ -14,3 +14,10 @@ sudo apt-get install openjdk-7-jdk -y
 
 # phantom
 sudo apt-get install phantomjs
+
+# android studio
+ANDROID_STUDIO_TGZ="android-studio-bundle-133.1028713-linux.tgz"
+mkdir -p $PWD/temp
+wget -O $PWD/temp/android-studio http://dl.google.com/android/studio/install/0.4.6/$ANDROID_STUDIO_TGZ
+sudo tar -zxvf $PWD/temp/android-studio -C /opt
+ln -sfn $PWD/ubuntu/support/android-studio.desktop ~/.local/share/applications/android-studio.desktop

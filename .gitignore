@@ -1,5 +1,5 @@
 # temporary files
-*.*~
+temp
 
 # OS artifacts
 .DS_Store
