@@ -4,5 +4,4 @@ Type=Application
 Name=Android Studio
 Icon=/opt/android-studio/bin/idea.png
 Exec=/opt/android-studio/bin/studio.sh
-Comment=Develop with pleasure!
 Categories=Development;IDE;
