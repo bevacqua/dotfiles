@@ -21,6 +21,3 @@ brew cask install diffmerge
 
 # phantomjs
 brew install phantomjs
-
-# install android studio
-brew cask install android-studio
