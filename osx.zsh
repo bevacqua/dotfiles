@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # configure the shell script
-sh ./installation/bootstrap.sh
+zsh ./installation/bootstrap.zsh
 
 # install osx dotfiles
-sh ./osx/osx.sh
+zsh ./osx/osx.zsh

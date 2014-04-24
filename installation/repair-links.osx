@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+echo "[macosx] Creating symbolic links on directory: $PWD"
+
+ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ (OSX).sublime-keymap

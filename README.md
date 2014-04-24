@@ -7,7 +7,7 @@ For a complete feature list, check out [FEATURES.md][1]
 # Install On OSX
 
 ```shell
-git clone --depth 1 https://github.com/bevacqua/dotfiles.git ~/.dotfiles && sudo sh ~/.dotfiles/osx.sh
+git clone --depth 1 https://github.com/bevacqua/dotfiles.git ~/.dotfiles && sudo sh ~/.dotfiles/osx.zsh
 ```
 
 ![shell-osx.png][4]
@@ -23,7 +23,7 @@ sudo sh ./ubuntu/zsh.sh
 After boot, install everything else.
 
 ```shell
-sudo sh ./ubuntu.sh
+sudo sh ./ubuntu.zsh
 ```
 
 ![shell-ubuntu.png][2]

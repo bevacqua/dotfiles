@@ -47,10 +47,7 @@ brew install git
 brew install git-flow
 
 # git configuration + hub
-sh $PWD/installation/configure-git.sh
-
-# ssh
-ln -sfn $PWD/ssh/config ~/.ssh/config
+zsh $PWD/installation/configure-git.zsh
 
 # st3
 brew cask install sublime-text3
@@ -65,7 +62,7 @@ ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Pack
 curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
 # run OS-free scripts
-sh $PWD/installation/universal.sh
+zsh $PWD/installation/universal.zsh
 
 # powerline
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
@@ -82,11 +79,11 @@ rm ~/Library/Fonts/gwf.tar.gz
 fc-cache -vf ~/Library/Fonts
 
 # install nodejs
-sh $PWD/installation/node.sh
+zsh $PWD/installation/node.zsh
 
 # install development languages, clis, db engines, and so on
-sh $PWD/installation/dev.sh
-sh $PWD/osx/dev.sh
+zsh $PWD/installation/dev.zsh
+zsh $PWD/osx/dev.zsh
 
 # install programs
-sh $PWD/osx/programs.sh
+zsh $PWD/osx/programs.zsh

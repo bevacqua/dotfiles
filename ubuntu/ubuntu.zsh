@@ -28,10 +28,7 @@ sudo apt-get install -y git-core
 sudo apt-get install git-flow
 
 # git configuration + hub
-sh $PWD/installation/configure-git.sh
-
-# ssh
-ln -sfn $PWD/ssh/config ~/.ssh/config
+sh $PWD/installation/configure-git.zsh
 
 # sublime text 3
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
@@ -48,7 +45,7 @@ ln -sfn $PWD/st3/preferences ~/.config/sublime-text-3/Packages/User/Preferences.
 curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
 
 # run OS-free scripts
-sh $PWD/installation/universal.sh
+zsh $PWD/installation/universal.zsh
 
 # powerline
 pip install --user git+git://github.com/Lokaltog/powerline
@@ -66,14 +63,14 @@ tar -zxvf ~/.fonts/gwf.tar.gz --directory ~/.fonts/gwf
 fc-cache -vf ~/.fonts
 
 # install nodejs
-sh $PWD/installation/node.sh
+zsh $PWD/installation/node.zsh
 
 # install development languages, clis, db engines, and so on
-sh $PWD/installation/dev.sh
-sh $PWD/ubuntu/dev.sh
+zsh $PWD/installation/dev.zsh
+zsh $PWD/ubuntu/dev.zsh
 
 # install programs
-sh $PWD/ubuntu/programs.sh
+zsh $PWD/ubuntu/programs.zsh
 
 ## recommend post-install commands
 echo "Use \`dpkg-reconfigure tzdata\` to pick your time zone"

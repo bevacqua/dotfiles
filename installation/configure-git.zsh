@@ -1,8 +1,5 @@
 #!/bin/zsh
 
-# git flow completion
-ln -sfn $PWD/zsh/git-flow-completion.zsh ~/.git-flow-completion.zsh
-
 # git configuration
 git config --global user.name "$NAME"
 git config --global user.email "$EMAIL"

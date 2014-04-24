@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install mongodb-10gen
 
 # robomongo
-sh $PWD/ubuntu/robomongo.sh
+zsh $PWD/ubuntu/robomongo.zsh
 
 # heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh

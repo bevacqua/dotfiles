@@ -1,3 +1,7 @@
+# 0.3.0 Symbol Magic
+
+- Added `repair-links` feature, useful when moving the repo around
+
 # 0.2.3 Spread thyself
 
 - Created `installation/{configure-git,node,universal}` with agnostic installation steps

@@ -17,7 +17,5 @@ read -p "Site ($DEFAULT_WEBSITE): " SITE
 SITE=${SITE:-$DEFAULT_WEBSITE}
 echo $SITE
 
-# get process working directory
-pushd `dirname $0` > /dev/null
-PWD=`pwd -P`
-popd > /dev/null
+# ssh
+ln -sfn $PWD/ssh/config ~/.ssh/config
