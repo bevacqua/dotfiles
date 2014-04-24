@@ -29,9 +29,16 @@ mkdir -p $PWD/bin
 wget -O $PWD/temp/android-sdk http://dl.google.com/android/android-sdk_r22.6.2-linux.tgz
 tar -zxvf $PWD/temp/android-sdk -C $PWD/bin
 
+# update sdk
+$PWD/bin/android-sdk-linux/tools/android update sdk --no-ui
+
 # android studio
 ANDROID_STUDIO_TGZ="android-studio-bundle-133.1028713-linux.tgz"
 mkdir -p $PWD/temp
 wget -O $PWD/temp/android-studio http://dl.google.com/android/studio/install/0.4.6/$ANDROID_STUDIO_TGZ
 sudo tar -zxvf $PWD/temp/android-studio -C /opt
 ln -sfn $PWD/ubuntu/support/android-studio.desktop ~/.local/share/applications/android-studio.desktop
+
+# link android sdk to android studio
+sudo mv /opt/android-studio/sdk /opt/android-studio/sdk.bak
+sudo ln -sfn $PWD/bin/android-sdk-linux /opt/android-studio/sdk
