@@ -71,7 +71,7 @@ sh $PWD/installation/universal.sh
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
 mkdir ~/Library/Fonts
 mv PowerlineSymbols.otf ~/Library/Fonts
-git clone https://github.com/Lokaltog/powerline-fonts.git ~/Library/Fonts/powerline-fonts
+git clone --depth 1 https://github.com/Lokaltog/powerline-fonts.git ~/Library/Fonts/powerline-fonts
 fc-cache -vf ~/Library/Fonts
 
 # google web fonts

@@ -7,7 +7,7 @@ For a complete feature list, check out [FEATURES.md][1]
 # Install On OSX
 
 ```shell
-git clone https://github.com/bevacqua/dotfiles.git ~/.dotfiles && sudo sh ~/.dotfiles/osx.sh
+git clone --depth 1 https://github.com/bevacqua/dotfiles.git ~/.dotfiles && sudo sh ~/.dotfiles/osx.sh
 ```
 
 ![shell-osx.png][4]
