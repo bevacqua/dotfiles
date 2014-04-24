@@ -1,5 +1,6 @@
 # get the dotfiles repo directory
 DOTFILES="$(dirname "$(dirname "$(readlink ~/.zshrc)")")"
+ZSHFILES="$DOTFILES/zsh"
 
 # configure oh-my-zsh
 ZSH=$HOME/.oh-my-zsh
@@ -11,21 +12,18 @@ COMPLETION_WAITING_DOTS="true"
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
+# OS-specific configuration
+[[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
+[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.osx
+
 # customize path
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/heroku/bin:$JAVA_HOME/bin:$PATH
+export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/heroku/bin:$PATH
 
 # set default editor
 export EDITOR="subl -w"
 
 # node version manager
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
-
-ZSHFILES="$DOTFILES/zsh"
-
-# OS-specific configuration
-[[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
-[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.osx
 
 source $ZSHFILES/completion
 source $ZSHFILES/aliases
