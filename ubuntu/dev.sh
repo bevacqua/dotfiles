@@ -23,6 +23,12 @@ sudo add-apt-repository ppa:cwchien/gradle
 sudo apt-get update
 sudo apt-get install gradle -y
 
+# android sdk
+mkdir -p $PWD/temp
+mkdir -p $PWD/bin
+wget -O $PWD/temp/android-sdk http://dl.google.com/android/android-sdk_r22.6.2-linux.tgz
+tar -zxvf $PWD/temp/android-sdk -C $PWD/bin
+
 # android studio
 ANDROID_STUDIO_TGZ="android-studio-bundle-133.1028713-linux.tgz"
 mkdir -p $PWD/temp
