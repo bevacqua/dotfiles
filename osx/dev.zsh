@@ -22,3 +22,5 @@ brew cask install diffmerge
 # phantomjs
 brew install phantomjs
 
+# gradle
+brew install gradle
