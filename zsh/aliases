@@ -1,14 +1,14 @@
+# TODO function
+todo () {
+  IFS_OLD="$IFS"
+  IFS=$'\n'
+  touch $(echo ~/Desktop/$@)
+  IFS="$IFS_OLD"
+}
+
 # convenience alias
 alias zshconfig="$EDITOR ~/.zshrc"
 alias dotconfig="$EDITOR ~/.zshrc.user"
-
-# TODO
-todo () {
-    IFS_OLD="$IFS"
-    IFS=$'\n'
-    touch $(echo ~/Desktop/$@)
-    IFS="$IFS_OLD"
-}
 
 alias dotfiles="open $DOTFILES"
 
@@ -19,3 +19,8 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+
+# OS-specific configuration
+[[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/aliases.ubuntu
+[[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/aliases.osx
+[[ $(uname -s) == MINGW32_* ]] && source $ZSHFILES/aliases.win32

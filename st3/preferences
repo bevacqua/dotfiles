@@ -16,7 +16,10 @@
 	[
 		".svn",
 		".git",
-		"node_modules"
+		"node_modules",
+		"vendor",
+		"bin",
+		".bin"
 	],
 	"font_options":
 	[

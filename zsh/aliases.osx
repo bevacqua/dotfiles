@@ -1,0 +1,3 @@
+# start and stop mongod service
+alias mongostart="launchctl start homebrew.mxcl.mongodb"
+alias mongostop="launchctl stop homebrew.mxcl.mongodb"

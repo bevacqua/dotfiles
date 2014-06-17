@@ -1,3 +1,0 @@
-# start and stop mongod service
-alias mongostart="launchctl start org.mongodb.mongod"
-alias mongostop="launchctl stop org.mongodb.mongod"
