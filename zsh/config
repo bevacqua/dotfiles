@@ -15,6 +15,7 @@ source $ZSH/oh-my-zsh.sh
 # OS-specific configuration
 [[ $(uname -s) == 'Linux' ]] && source $ZSHFILES/config.ubuntu
 [[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.osx
+[[ $(uname -s) == MINGW32_* ]] && source $ZSHFILES/config.win32
 
 # customize path
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/heroku/bin:$PATH
