@@ -40,4 +40,10 @@ brew cask install webp-quicklook
 brew cask install suspicious-package
 
 # allow text selection in the quick look window
-defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
+defaults write com.apple.finder QLEnableTextSelection -bool true
+
+# show dotfiles in finder
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
+# refresh any finder windows
+killall Finder
