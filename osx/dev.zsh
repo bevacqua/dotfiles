@@ -24,3 +24,6 @@ brew install phantomjs
 
 # gradle
 brew install gradle
+
+# ngrok
+brew cask install ngrok
