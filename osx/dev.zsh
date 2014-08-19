@@ -30,3 +30,6 @@ curl http://pkgconfig.freedesktop.org/releases/pkg-config-0.23.tar.gz -o pkgconf
 tar -zxf pkgconfig.tgz && cd pkg-config-0.23
 ./configure && make install
 cd .. && rm -rf pkg-config-0.23 && rm pkgconfig.tgz
+
+# ngrok
+brew cask install ngrok
