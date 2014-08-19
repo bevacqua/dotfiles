@@ -18,8 +18,8 @@
 		".git",
 		"node_modules",
 		"vendor",
-		"bin",
-		".bin"
+		".bin",
+		"dist"
 	],
 	"font_options":
 	[
@@ -33,5 +33,6 @@
 	],
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
-	"update_check": false
+	"update_check": false,
+	"show_full_path": true
 }

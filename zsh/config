@@ -19,6 +19,7 @@ source $ZSH/oh-my-zsh.sh
 
 # customize path
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/heroku/bin:$PATH
+export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
 
 # set default editor
 export EDITOR="subl -w"
