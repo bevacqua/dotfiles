@@ -33,3 +33,6 @@ cd .. && rm -rf pkg-config-0.23 && rm pkgconfig.tgz
 
 # ngrok
 brew cask install ngrok
+
+# jq
+brew install jq

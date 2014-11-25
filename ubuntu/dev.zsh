@@ -17,3 +17,11 @@ sudo apt-get install openjdk-7-jdk -y
 
 # phantom
 sudo apt-get install phantomjs
+
+# jq
+git clone https://github.com/stedolan/jq.git
+cd jq
+autoreconf -i
+./configure
+make
+sudo make install
