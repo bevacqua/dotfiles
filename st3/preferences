@@ -17,6 +17,7 @@
 		".svn",
 		".git",
 		"node_modules",
+		"bower_components",
 		".bin",
 		"dist"
 	],
@@ -24,7 +25,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"hot_exit": false,
 	"ignored_packages":
 	[

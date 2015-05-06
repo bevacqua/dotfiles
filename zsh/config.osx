@@ -1,0 +1,2 @@
+# increase open fd limit
+ulimit -n 10240
