@@ -24,6 +24,9 @@ export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
 # set default editor
 export EDITOR="subl -w"
 
+# global packer cache
+export PACKER_CACHE_DIR="$HOME/packer_cache"
+
 # node version manager
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
 

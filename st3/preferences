@@ -17,7 +17,6 @@
 		".svn",
 		".git",
 		"node_modules",
-		"bower_components",
 		".bin",
 		"dist"
 	],
@@ -25,11 +24,13 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 15,
+	"font_size": 16,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"ASP",
+		"Vintage",
+		"ActionScript"
 	],
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
