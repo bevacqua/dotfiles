@@ -1,16 +1,7 @@
 {
-	"binary_file_patterns":
-	[
-		"_unused_*.jpg",
-		"_unused_*.jpeg",
-		"_unused_*.png",
-		"_unused_*.gif",
-		"_unused_*.ttf",
-		"_unused_*.ico",
-		"_unused_*.pdf",
-		"_unused_*.pdn",
-		"*.log"
-	],
+  "always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
 	"close_windows_when_empty": true,
 	"folder_exclude_patterns":
 	[
@@ -18,22 +9,38 @@
 		".git",
 		"node_modules",
 		".bin",
-		"dist"
+		"dist",
+    "tmp"
 	],
 	"font_options":
 	[
+    "gray_antialias",
 		"subpixel_antialias"
 	],
 	"font_size": 16,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"ASP",
-		"Vintage",
-		"ActionScript"
+    "ActionScript",
+    "ASP",
+    "Vintage",
+    "Seti_UI"
 	],
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
 	"show_full_path": true,
-	"update_check": false
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 3,
+  "line_padding_top": 3,
+  "material_theme_small_tab": true,
+  "overlay_scroll_bars": "enabled",
+  "remember_open_files": true,
+  "save_on_focus_lost": true,
+  "show_full_path": true,
+  "theme": "Material-Theme.sublime-theme",
+  "update_check": true
 }
