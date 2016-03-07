@@ -16,6 +16,10 @@ npm install -g watchify
 npm install -g testling
 npm install -g localtunnel
 
+# automatic node version manager
+npm install -g avn avn-nvm
+avn setup
+
 # aws-cli
 pip install awscli --upgrade
 

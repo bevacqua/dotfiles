@@ -1,8 +1,8 @@
 {
-  "always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
-  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
 	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -10,37 +10,34 @@
 		"node_modules",
 		".bin",
 		"dist",
-    "tmp"
+		"tmp"
 	],
 	"font_options":
 	[
-    "gray_antialias",
+		"gray_antialias",
 		"subpixel_antialias"
 	],
 	"font_size": 16,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-    "ActionScript",
-    "ASP",
-    "Vintage",
-    "Seti_UI"
+		"ActionScript",
+		"ASP",
+		"Seti_UI",
+		"Vintage"
 	],
-	"remember_open_files": false,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+  "material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
+	"remember_open_files": true,
 	"save_on_focus_lost": true,
 	"show_full_path": true,
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "line_padding_bottom": 3,
-  "line_padding_top": 3,
-  "material_theme_small_tab": true,
-  "overlay_scroll_bars": "enabled",
-  "remember_open_files": true,
-  "save_on_focus_lost": true,
-  "show_full_path": true,
-  "theme": "Material-Theme.sublime-theme",
-  "update_check": true
+	"theme": "Material-Theme.sublime-theme",
+	"update_check": true
 }
