@@ -2,7 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -33,7 +33,7 @@
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
-  "material_theme_small_tab": true,
+	"material_theme_small_tab": true,
 	"overlay_scroll_bars": "enabled",
 	"remember_open_files": true,
 	"save_on_focus_lost": true,
