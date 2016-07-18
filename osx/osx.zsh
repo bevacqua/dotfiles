@@ -49,8 +49,14 @@ brew install git-flow
 # git configuration + hub
 zsh $PWD/installation/configure-git.zsh
 
+# atom editor
+brew cask install hyperterm
+
+# atom editor
+brew cask install atom
+
 # st3
-brew cask install sublime-text3
+brew cask install sublime-text
 
 # st3 preferences
 ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
@@ -69,14 +75,15 @@ wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
 mkdir ~/Library/Fonts
 mv PowerlineSymbols.otf ~/Library/Fonts
 git clone --depth 1 https://github.com/Lokaltog/powerline-fonts.git ~/Library/Fonts/powerline-fonts
-fc-cache -vf ~/Library/Fonts
 
 # google web fonts
-curl -L https://github.com/w0ng/googlefontdirectory/tarball/master > ~/Library/Fonts/gwf.tar.gz
+curl -L https://github.com/google/fonts/archive/master.zip > ~/Library/Fonts/gwf.zip
 mkdir ~/Library/Fonts/gwf
-tar -zxvf ~/Library/Fonts/gwf.tar.gz --directory ~/Library/Fonts/gwf
-rm ~/Library/Fonts/gwf.tar.gz
-fc-cache -vf ~/Library/Fonts
+unzip ~/Library/Fonts/gwf.zip -d ~/Library/Fonts/gwf
+rm ~/Library/Fonts/gwf.zip
+
+# clear font cache
+sudo atsutil databases -remove
 
 # install nodejs
 zsh $PWD/installation/node.zsh

@@ -2,7 +2,6 @@
   "always_show_minimap_viewport": true,
   "bold_folder_labels": true,
   "close_windows_when_empty": true,
-  "color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
   "folder_exclude_patterns":
   [
     ".bin",
@@ -39,6 +38,7 @@
   "remember_open_files": true,
   "save_on_focus_lost": true,
   "show_full_path": true,
-  "theme": "Material-Theme.sublime-theme",
-  "update_check": true
+  "update_check": true,
+  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+  "theme": "Oceanic Next.sublime-theme"
 }

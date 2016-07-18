@@ -19,8 +19,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - `zsh`, courtesy of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh "A community-driven framework for managing your zsh configuration")
     - Complete with [`Package Control`](https://sublime.wbond.net/)! **Recommended packages:**
         - EditorConfig
-        - Flatland Dark Theme
-        - Gist
+        - Oceanic Next Color Scheme
         - VcsGutter
         - SideBarEnhancements
         - TrailingSpaces

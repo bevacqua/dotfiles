@@ -7,8 +7,9 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 source ~/.zshrc
 
 # node
-nvm install 0.10.23
-nvm alias default 0.10.23
+export NODE_LATEST=$(nvm ls-remote | tail -1 | xargs)
+nvm install $NODE_LATEST
+nvm alias default $NODE_LATEST
 
 # refresh configuration
 source ~/.zshrc
