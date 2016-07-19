@@ -49,8 +49,11 @@ brew install git-flow
 # git configuration + hub
 zsh $PWD/installation/configure-git.zsh
 
-# atom editor
+# hyperterm editor
 brew cask install hyperterm
+
+# hyperterm preferences
+ln -sfn $PWD/hyperterm/.hyperterm.js ~/.hyperterm.js
 
 # atom editor
 brew cask install atom
