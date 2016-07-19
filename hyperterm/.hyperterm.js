@@ -10,10 +10,10 @@ module.exports = {
     cursorColor: '#e92c6c',
 
     // color of the text
-    foregroundColor: '#fff',
+    foregroundColor: '#839496',
 
     // terminal background color
-    backgroundColor: '#000',
+    backgroundColor: '#002b36',
 
     // border color (window, tabs)
     borderColor: 'rgba(255,255,255,.1)',
@@ -30,22 +30,22 @@ module.exports = {
     // some color overrides. see http://bit.ly/29k1iU2 for
     // the full list
     colors: [
-      '#000000',
-      '#ff0000',
-      '#33ff00',
-      '#ffff00',
-      '#0066ff',
-      '#cc00ff',
-      '#00ffff',
-      '#d0d0d0',
-      '#808080',
-      '#ff0000',
-      '#33ff00',
-      '#ffff00',
-      '#0066ff',
-      '#cc00ff',
-      '#00ffff',
-      '#ffffff'
+      '#002b36', // background
+      '#dc322f', // red
+      '#859900', // green
+      '#b58900', // yellow
+      '#268bd2', // blue
+      '#6c71c4', // violet
+      '#2aa198', // cyan
+      '#657b83', // light gray
+      '#586e75', // medium gray
+      '#dc322f', // red
+      '#859900', // green
+      '#b58900', // yellow
+      '#268bd2', // blue
+      '#6c71c4', // violet
+      '#2aa198', // cyan
+      '#ffffff', // white
     ]
   },
 
@@ -56,7 +56,6 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-solarized-dark'
   ],
 
   // in development, you can create a directory under
