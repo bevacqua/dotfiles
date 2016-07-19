@@ -13,6 +13,9 @@ wget -qO- https://toolbelt.heroku.com/install.sh | sh
 # sourcetree
 brew cask install sourcetree
 
+# java
+brew cask install java
+
 # MAMP
 brew cask install mamp
 
