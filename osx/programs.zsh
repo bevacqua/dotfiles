@@ -20,13 +20,13 @@ brew cask install gimp
 
 # inkscape
 brew cask install xquartz
-brew install inkscape
+brew cask install inkscape
 
 # vlc
 brew cask install vlc
 
-# utorrent
-brew cask install utorrent
+# transmission
+brew cask install transmission
 
 # quick look plugins
 brew cask install qlcolorcode
