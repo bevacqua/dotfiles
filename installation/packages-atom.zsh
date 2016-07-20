@@ -20,6 +20,7 @@ apm i linter-eslint
 apm i stylus
 apm i language-dots
 apm i language-babel
+apm i atom-jade
 
 # big features
 apm i git-time-machine

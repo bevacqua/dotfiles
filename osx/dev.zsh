@@ -28,11 +28,9 @@ brew install phantomjs
 # gradle
 brew install gradle
 
-# pkg-config
-curl http://pkgconfig.freedesktop.org/releases/pkg-config-0.23.tar.gz -o pkgconfig.tgz
-tar -zxf pkgconfig.tgz && cd pkg-config-0.23
-./configure && make install
-cd .. && rm -rf pkg-config-0.23 && rm pkgconfig.tgz
+# pkg-config and friends
+xcode-select --install
+brew install pkg-config cairo libpng jpeg giflib
 
 # ngrok
 brew cask install ngrok

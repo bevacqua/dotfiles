@@ -33,6 +33,10 @@ module.exports = {
     ]
   },
 
-  plugins: ['hyperlinks'],
+  plugins: [
+    'hyperterm-blink',
+    'hyperlinks',
+    'hyperterm-snazzy'
+  ],
   localPlugins: []
 };
