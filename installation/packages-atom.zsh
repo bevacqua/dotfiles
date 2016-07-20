@@ -32,4 +32,5 @@ apm i text-manipulation
 apm i open-recent
 apm i wordcount
 apm i minimap
+apm i minimap-pigments
 apm i minimap-highlight-selected
