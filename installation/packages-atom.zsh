@@ -9,6 +9,7 @@ apm i color-picker
 apm i pigments
 apm i emmet
 apm i sort-lines
+apm i trailing-spaces
 
 # linting
 apm i linter
@@ -26,6 +27,7 @@ apm i merge-conflicts
 apm i rest-client
 
 # general
+apm i text-manipulation
 apm i open-recent
 apm i wordcount
 apm i minimap

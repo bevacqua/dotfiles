@@ -33,6 +33,6 @@ module.exports = {
     ]
   },
 
-  plugins: [],
+  plugins: ['hyperlinks'],
   localPlugins: []
 };

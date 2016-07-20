@@ -1,10 +1,13 @@
 #!/bin/zsh
 
-# chrome
+# all the browsers
 brew cask install google-chrome
+brew cask install google-chrome-canary
+brew cask install firefox
+brew cask install opera
 
 # hipchat
-brew cask install hipchat
+brew cask install slack
 
 # skype
 brew cask install skype
