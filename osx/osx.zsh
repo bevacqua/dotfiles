@@ -37,6 +37,9 @@ chsh -s `which zsh`
 # quicksilver
 brew cask install quicksilver
 
+# alfred
+brew cask install alfred
+
 # mercurial
 brew install hg
 
