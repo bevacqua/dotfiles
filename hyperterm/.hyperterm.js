@@ -5,9 +5,7 @@ module.exports = {
     termCSS: '::selection { background-color: rgba(233, 44, 108, 0.8); color: #fcfcfc; }',
     padding: '12px 14px'
   },
-
   plugins: [
-    'hypercwd',
     'hyperlinks',
     'hyperterm-blink',
     'hyperterm-snazzy'
