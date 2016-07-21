@@ -46,7 +46,7 @@ brew cask install suspicious-package
 defaults write com.apple.finder QLEnableTextSelection -bool true
 
 # show dotfiles in finder
-defaults write com.apple.finder AppleShowAllFiles TRUE
+defaults write com.apple.finder AppleShowAllFiles YES
 
 # refresh any finder windows
 killall Finder
