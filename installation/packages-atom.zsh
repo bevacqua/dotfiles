@@ -11,6 +11,11 @@ apm i emmet
 apm i sort-lines
 apm i trailing-spaces
 
+# tabs
+apm i new-tab
+apm i tab-title
+apm i tab-numbers
+
 # linting
 apm i linter
 apm i linter-csslint
