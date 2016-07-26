@@ -8,7 +8,8 @@ module.exports = {
   plugins: [
     'hyperlinks',
     'hyperterm-blink',
-    'hyperterm-snazzy'
+    'hyperterm-snazzy',
+    'hyperterm-tab-numbers'
   ],
   localPlugins: []
 };
