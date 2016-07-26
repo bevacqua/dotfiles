@@ -11,5 +11,6 @@ module.exports = {
     'hyperterm-snazzy',
     'hyperterm-tab-numbers'
   ],
+  windowSize: [140, 25],
   localPlugins: []
 };
