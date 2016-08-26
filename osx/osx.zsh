@@ -22,6 +22,18 @@ brew install python
 # gm
 brew install graphicsmagick
 
+# xquartz
+brew cask install xquartz
+
+# ffmpeg
+brew install ffmpeg
+
+# gifsicle
+brew install gifsicle
+
+# gpg
+brew cask install gpgtools
+
 # iterm
 brew cask install iterm2
 

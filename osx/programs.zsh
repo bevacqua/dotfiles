@@ -22,7 +22,6 @@ brew cask install openoffice
 brew cask install gimp
 
 # inkscape
-brew cask install xquartz
 brew cask install inkscape
 
 # vlc
