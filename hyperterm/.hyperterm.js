@@ -12,7 +12,8 @@ module.exports = {
     'hyperterm-blink',
     'hyperterm-snazzy',
     'hyperterm-tab-numbers',
-    'hyperterm-working-directory'
+    'hyperterm-working-directory',
+    'hypercwd'
   ],
   localPlugins: [
   ]
