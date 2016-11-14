@@ -3,4 +3,3 @@ export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 
 # export JAVA_HOME environment variable
 export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
-
