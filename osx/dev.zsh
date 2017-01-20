@@ -38,5 +38,8 @@ brew cask install ngrok
 # jq
 brew install jq
 
+# ack
+brew install ack
+
 # packer
 brew cask install packer

@@ -68,7 +68,7 @@ zsh $PWD/installation/configure-git.zsh
 brew cask install hyperterm
 
 # hyperterm preferences
-ln -sfn $PWD/hyperterm/.hyperterm.js ~/.hyperterm.js
+ln -sfn $PWD/hyper/.hyper.js ~/.hyper.js
 
 # atom editor
 brew cask install atom

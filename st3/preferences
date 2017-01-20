@@ -1,44 +1,44 @@
 {
-  "always_show_minimap_viewport": true,
-  "bold_folder_labels": true,
-  "close_windows_when_empty": true,
-  "folder_exclude_patterns":
-  [
-    ".bin",
-    ".git",
-    ".node_binaries",
-    ".svn",
-    "dist",
-    "node_modules",
-    "tmp"
-  ],
-  "font_options":
-  [
-    "gray_antialias",
-    "subpixel_antialias"
-  ],
-  "font_size": 16,
-  "hot_exit": false,
-  "ignored_packages":
-  [
-    "ActionScript",
-    "ASP",
-    "Seti_UI",
-    "Vintage"
-  ],
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "line_padding_bottom": 3,
-  "line_padding_top": 3,
-  "material_theme_small_tab": true,
-  "overlay_scroll_bars": "enabled",
-  "remember_open_files": true,
-  "save_on_focus_lost": true,
-  "show_full_path": true,
-  "update_check": true,
-  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
-  "theme": "Oceanic Next.sublime-theme"
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".bin",
+		".git",
+		".node_binaries",
+		".svn",
+		"dist",
+		"node_modules",
+		"tmp"
+	],
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 16,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"ASP",
+		"Seti_UI",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
+	"remember_open_files": true,
+	"save_on_focus_lost": true,
+	"show_full_path": true,
+	"theme": "Oceanic Next.sublime-theme",
+	"update_check": true
 }
