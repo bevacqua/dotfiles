@@ -1,0 +1,4 @@
+--ignore-directory=is:node_modules
+--ignore-directory=is:bower_components
+--type-set=stylus:ext:styl
+--type-set=markdown:ext:md,markdown
