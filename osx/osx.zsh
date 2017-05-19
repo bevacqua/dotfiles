@@ -64,6 +64,11 @@ brew install git
 # git-flow
 brew install git-flow
 
+# git diff highlighter
+wget https://raw.github.com/git/git/master/contrib/diff-highlight/diff-highlight
+chmod +x diff-highlight
+mv diff-highlight ~/bin
+
 # git configuration + hub
 zsh $PWD/installation/configure-git.zsh
 

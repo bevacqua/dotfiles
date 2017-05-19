@@ -1,0 +1,37 @@
+[credential]
+	helper = store
+
+[push]
+	default = simple
+
+[branch]
+	autosetuprebase = always
+
+[color]
+	ui = auto
+
+[log]
+  date = relative
+
+[pager]
+  diff = diff-highlight | less
+  log = diff-highlight | less
+  show = diff-highlight | less
+
+[url "https://"]
+  insteadOf = git://
+
+[alias]
+  s = status -sb
+  l  = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen%cr%Creset' -n 15
+  ll = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen%cr%Creset'
+  local = log --branches --not --remotes --simplify-by-decoration --decorate --oneline
+  last = !"git for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' refs/heads | gtac | tail"
+  rank = shortlog -s -n --no-merges
+  w = whatchanged --oneline
+  fix = commit --amend -C HEAD
+  d = diff -b
+  dw = diff -b --word-diff=color
+  c = commit -m
+  unmerged = !git branch -r --no-merged | grep -v HEAD | xargs -L1 git --no-pager log --pretty=tformat:'%Cgreen%d%Creset %Cred%h%Creset %an %Cblue%ar%Creset' -1
+  rc = !"git add -A; git commit -m \"$(echo $(curl -s http://whatthecommit.com/index.txt))\""
