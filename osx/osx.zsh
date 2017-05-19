@@ -19,6 +19,9 @@ brew install wget
 # python (pip)
 brew install python
 
+# trash
+brew install trash
+
 # gm
 brew install graphicsmagick
 

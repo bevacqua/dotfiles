@@ -13,3 +13,6 @@ movtogif () {
       --optimize=3 \
       --delay=3 > $2
 }
+
+# safety measure, so that rm -rf moves things to trash
+alias rm='trash'
