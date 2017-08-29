@@ -35,3 +35,6 @@
   c = commit -m
   unmerged = !git branch -r --no-merged | grep -v HEAD | xargs -L1 git --no-pager log --pretty=tformat:'%Cgreen%d%Creset %Cred%h%Creset %an %Cblue%ar%Creset' -1
   rc = !"git add -A; git commit -m \"$(echo $(curl -s http://whatthecommit.com/index.txt))\""
+
+[commit]
+	gpgsign = true
