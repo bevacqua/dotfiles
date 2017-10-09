@@ -81,6 +81,9 @@ ln -sfn $PWD/hyper/.hyper.js ~/.hyper.js
 # atom editor
 brew cask install atom
 
+# vs code editor
+brew cask install visual-studio-code
+
 # st3
 brew cask install sublime-text
 

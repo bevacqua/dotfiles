@@ -2,7 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
 		".bin",
@@ -13,12 +13,11 @@
 		"node_modules",
 		"tmp"
 	],
+	"font_face": "Inconsolata",
 	"font_options":
 	[
-		"gray_antialias",
-		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 18,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -40,5 +39,6 @@
 	"save_on_focus_lost": true,
 	"show_full_path": true,
 	"theme": "Oceanic Next.sublime-theme",
-	"update_check": true
+	"update_check": true,
+	"word_wrap": true
 }
