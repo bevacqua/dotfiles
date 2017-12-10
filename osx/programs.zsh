@@ -30,6 +30,9 @@ brew cask install vlc
 # transmission
 brew cask install transmission
 
+# emojis
+brew cask install mojibar
+
 # quick look plugins
 brew cask install qlcolorcode
 brew cask install qlstephen

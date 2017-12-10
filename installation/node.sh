@@ -14,6 +14,9 @@ nvm alias default $NODE_LATEST
 # refresh configuration
 source ~/.zshrc
 
+# install yarn
+brew install yarn --without-node
+
 # add author info to npm
 echo "Adding npm publisher information"
 npm set init.author.name "$NAME"
