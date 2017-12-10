@@ -40,6 +40,9 @@ brew cask install gpgtools
 # iterm
 brew cask install iterm2
 
+# snazzy iterm theme
+open $PWD/osx/support/snazzy.itermcolors
+
 # install zsh
 brew install zsh
 
@@ -48,9 +51,6 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 
 # set zsh as default shell
 chsh -s `which zsh`
-
-# quicksilver
-brew cask install quicksilver
 
 # alfred
 brew cask install alfred

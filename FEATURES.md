@@ -67,7 +67,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - [VLC](http://www.videolan.org/vlc/index.html), you know you want it
 - Application Launchers!
     - [gnome-do](https://launchpad.net/do) on Ubuntu
-    - [Quicksilver](http://qsapp.com/) on OSX
+    - [Alfred](https://www.alfredapp.com/) on OSX
 
 ## Database Engines
 
