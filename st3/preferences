@@ -2,7 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"color_scheme": "Packages/User/snazzy.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".bin",
@@ -13,7 +13,7 @@
 		"node_modules",
 		"tmp"
 	],
-	"font_face": "Inconsolata",
+	"font_face": "Droid Sans Mono for Powerline",
 	"font_options":
 	[
 	],

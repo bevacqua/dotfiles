@@ -85,6 +85,9 @@ brew cask install visual-studio-code
 # st3
 brew cask install sublime-text
 
+# snazzy st3 theme
+ln -sfn $PWD/st3/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snazzy.tmTheme
+
 # st3 preferences
 ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
