@@ -48,7 +48,7 @@ curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/su
 zsh $PWD/installation/universal.zsh
 
 # powerline
-pip install --user git+git://github.com/Lokaltog/powerline
+pip2 install --user git+git://github.com/Lokaltog/powerline
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
 mkdir -p ~/.fonts/
 mv PowerlineSymbols.otf ~/.fonts/

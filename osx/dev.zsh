@@ -42,4 +42,7 @@ brew install jq
 brew install ack
 
 # packer
-brew cask install packer
+brew install packer
+
+# docker
+brew install docker

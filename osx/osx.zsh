@@ -64,18 +64,16 @@ brew install git
 # git-flow
 brew install git-flow
 
-# git diff highlighter
-wget https://raw.github.com/git/git/master/contrib/diff-highlight/diff-highlight
-chmod +x diff-highlight
-mv diff-highlight ~/bin
+# git diff-so-fancy
+brew install diff-so-fancy
 
 # git configuration + hub
 zsh $PWD/installation/configure-git.zsh
 
-# hyperterm editor
-brew cask install hyperterm
+# hyper editor
+brew cask install hyper
 
-# hyperterm preferences
+# hyper preferences
 ln -sfn $PWD/hyper/.hyper.js ~/.hyper.js
 
 # atom editor

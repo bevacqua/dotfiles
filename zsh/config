@@ -48,9 +48,6 @@ source $ZSHFILES/aliases
 source ~/.zshrc.user
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 
-# boost ulimit
-ulimit -n 65536 65536
-
 export PATH="$HOME/.yarn/bin:$PATH"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
