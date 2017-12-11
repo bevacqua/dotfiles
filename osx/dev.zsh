@@ -46,3 +46,6 @@ brew install packer
 
 # docker
 brew install docker
+
+# vbox
+brew cask install virtualbox
