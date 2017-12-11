@@ -47,5 +47,8 @@ brew install packer
 # docker
 brew install docker
 
-# vbox
+# virtual-box
 brew cask install virtualbox
+
+# vagrant
+brew cask install vagrant
