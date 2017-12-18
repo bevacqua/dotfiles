@@ -22,6 +22,9 @@ brew cask install mamp
 # DiffMerge
 brew cask install diffmerge
 
+# watchman, because facebook tools like Jest
+brew install watchman
+
 # phantomjs
 brew install phantomjs
 
