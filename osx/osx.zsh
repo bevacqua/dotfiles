@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# suppress "Last login …" messages
+touch ~/.hushlogin
+
 # Latin American keyboard layout
 cp $PWD/osx/support/latinamerican.keylayout ~/Library/Keyboard\ Layouts
 
