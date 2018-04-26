@@ -6,6 +6,18 @@ todo () {
   IFS="$IFS_OLD"
 }
 
+# no-nonsense copy and paste commands
+copy() {
+  if [ -t 0 ]; then
+    cat $@ | pbcopy
+  else
+    pbcopy < /dev/stdin
+  fi
+  pbpaste
+}
+
+alias paste=pbpaste
+
 # convenience alias
 alias zshconfig="$EDITOR ~/.zshrc"
 alias dotconfig="$EDITOR ~/.zshrc.user"

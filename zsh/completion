@@ -1,5 +1,9 @@
 # npm completion
 eval "$(npm completion)"
 
+# nvm completion
+export PATH="$HOME/.yarn/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
 # git-flow completion
 source $ZSHFILES/git-flow-completion.zsh

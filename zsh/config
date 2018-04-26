@@ -48,9 +48,6 @@ source $ZSHFILES/aliases
 source ~/.zshrc.user
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 
-export PATH="$HOME/.yarn/bin:$PATH"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/bevacqua/dev/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/bevacqua/dev/google-cloud-sdk/path.zsh.inc'; fi
 
