@@ -18,6 +18,8 @@ copy() {
 
 alias paste=pbpaste
 
+alias zws="printf '\u200b' | pbcopy"
+
 # convenience alias
 alias zshconfig="$EDITOR ~/.zshrc"
 alias dotconfig="$EDITOR ~/.zshrc.user"
