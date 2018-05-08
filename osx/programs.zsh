@@ -50,5 +50,8 @@ defaults write com.apple.finder QLEnableTextSelection -bool true
 # show dotfiles in finder
 defaults write com.apple.finder AppleShowAllFiles YES
 
+# suppress bounce notifications
+defaults write com.apple.dock no-bouncing -bool TRUE
+
 # refresh any finder windows
 killall Finder
