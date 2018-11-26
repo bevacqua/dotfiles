@@ -4,7 +4,14 @@
 DEFAULT_NAME="Nicolás Bevacqua"
 DEFAULT_EMAIL="nicolasbevacqua@gmail.com"
 DEFAULT_WEBSITE="https://ponyfoo.com"
-DEFAULT_PGP_KEY=""
+DEFAULT_PGP_KEY=$(\
+  gpg \
+    --list-secret-keys \
+    --keyid-format LONG \
+      | grep sec \
+      | sed -n "s/[^\/]*\///p" \
+      | cut -f 1 -d " " \
+)
 
 read -p "Name ($DEFAULT_NAME): " NAME
 NAME=${NAME:-$DEFAULT_NAME}

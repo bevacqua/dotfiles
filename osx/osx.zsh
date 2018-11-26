@@ -38,7 +38,7 @@ brew install ffmpeg
 brew install gifsicle
 
 # gpg
-brew cask install gpgtools
+brew cask install gpg-suite
 
 # iterm
 brew cask install iterm2

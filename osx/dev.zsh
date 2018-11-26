@@ -50,6 +50,9 @@ brew install packer
 # docker
 brew install docker
 
+# terraform
+brew install terraform
+
 # virtual-box
 brew cask install virtualbox
 
