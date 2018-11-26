@@ -19,8 +19,9 @@ brew install yarn --without-node
 
 # add author info to npm
 echo "Adding npm publisher information"
-npm set init.author.name "$NAME"
-npm set init.author.email "$EMAIL"
-npm set init.author.url "$SITE"
-npm set save-exact true
+npm config set init-author-name "$NAME"
+npm config set init-author-email "$EMAIL"
+npm config set init-author-url "$SITE"
+npm config set init-license "MIT"
+npm config set save-exact true
 npm adduser
