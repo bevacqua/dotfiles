@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# postgres
+brew install postgres
+
 # mongodb
 brew install mongodb
 
