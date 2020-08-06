@@ -7,7 +7,7 @@ touch ~/.hushlogin
 cp $PWD/osx/support/latinamerican.keylayout ~/Library/Keyboard\ Layouts
 
 # install brew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # cask for brew
 brew tap phinze/cask
