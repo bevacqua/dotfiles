@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # base git configuration
-cp $PWD/.gitconfig.example > ~/.gitconfig
+cp $PWD/git/.gitconfig.example ~/.gitconfig
 
 # git configuration
 git config --global user.name "$NAME"
