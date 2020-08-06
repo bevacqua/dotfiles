@@ -10,7 +10,7 @@ cp $PWD/osx/support/latinamerican.keylayout ~/Library/Keyboard\ Layouts
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # cask for brew
-brew cask
+brew tap homebrew/cask
 
 # cask versions
 brew tap caskroom/versions
