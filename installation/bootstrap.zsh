@@ -32,3 +32,7 @@ echo $PGP_KEY
 # ssh
 mkdir ~/.ssh
 ln -sfn $PWD/ssh/config ~/.ssh/config
+
+# gpg
+mkdir ~/.gnupg
+ln -sfn $PWD/gpg/gpg.conf ~/.gnupg/gpg.conf
