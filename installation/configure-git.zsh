@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# configure the shell script
+zsh $PWD/installation/bootstrap.zsh
+
 # base git configuration
 cp $PWD/git/.gitconfig.example ~/.gitconfig
 
