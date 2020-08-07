@@ -97,7 +97,7 @@ ln -sfn $PWD/st3/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/
 ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 # st3 keymaps
-ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ (OSX).sublime-keymap
+ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
 
 # st3 package control plugin
 curl \
