@@ -1,6 +1,9 @@
 [credential]
   helper = store
 
+[pull]
+  rebase = true
+
 [push]
   default = simple
 
@@ -53,6 +56,6 @@
 [commit]
   gpgsign = true
 [user]
-	signingkey = 6EDF0488A441E4D0
-	name = 
-	email = 
+  signingkey = 6EDF0488A441E4D0
+  name = Nicolás Bevacqua
+  email = nicolasbevacqua@gmail.com
