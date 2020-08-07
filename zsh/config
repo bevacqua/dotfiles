@@ -30,10 +30,6 @@ source $ZSH/oh-my-zsh.sh
 [[ $(uname -s) == 'Darwin' ]] && source $ZSHFILES/config.osx
 [[ $(uname -s) == MINGW32_* ]] && source $ZSHFILES/config.win32
 
-# customize path
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/heroku/bin:$HOME/Library/Android/sdk/platform-tools:$HOME/bin:$PATH
-export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
-
 # set default editor
 export EDITOR="atom"
 export GIT_EDITOR="subl -w"

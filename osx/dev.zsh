@@ -48,14 +48,23 @@ brew install ack
 # packer
 brew install packer
 
+# virtual-box
+brew cask install virtualbox
+
 # docker
 brew install docker
+brew install docker-machine
+brew install docker-compose
+
+# setup docker
+docker-machine create --driver virtualbox default
+docker-machine ls
+docker-machine start default
+docker-machine ls
+docker-machine env default
 
 # terraform
 brew install terraform
-
-# virtual-box
-brew cask install virtualbox
 
 # vagrant
 brew cask install vagrant
