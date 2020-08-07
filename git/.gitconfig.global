@@ -52,3 +52,7 @@
 
 [commit]
   gpgsign = true
+[user]
+	signingkey = 6EDF0488A441E4D0
+	name = 
+	email = 
