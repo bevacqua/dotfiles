@@ -1,5 +1,5 @@
 # TODO function
-todo () {
+todo() {
   IFS_OLD="$IFS"
   IFS=$'\n'
   touch $(echo ~/Desktop/$@)

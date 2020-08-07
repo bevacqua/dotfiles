@@ -2,7 +2,7 @@
 alias mongostart="launchctl start homebrew.mxcl.mongodb"
 alias mongostop="launchctl stop homebrew.mxcl.mongodb"
 
-movtogif () {
+movtogif() {
   ffmpeg \
     -i $1 \
     -s 600x400 \
