@@ -2,6 +2,8 @@
 
 # postgres
 brew install postgres
+brew services start postgresql
+createuser -s postgres
 
 # mongodb
 brew tap mongodb/brew
