@@ -6,6 +6,15 @@ brew services start postgresql
 createuser -s postgres # commonplace `postgres` user isn't auto-created
 createdb # db for `whoami` isn't auto-created
 
+# redis
+brew install redis
+brew services start redis
+
+# elasticsearch
+brew tap elastic/tap
+brew install elastic/tap/elasticsearch-oss
+brew services start elastic/tap/elasticsearch-oss
+
 # mongodb
 brew tap mongodb/brew
 brew install mongodb-community

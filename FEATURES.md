@@ -63,8 +63,9 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 
 ## Database Engines
 
-- MongoDB
 - PostgreSQL
+- Redis
+- MongoDB
 
 ## Day-to-day communication and awesomeness
 
