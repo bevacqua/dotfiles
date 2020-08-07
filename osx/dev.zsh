@@ -27,7 +27,7 @@ brew cask install diffmerge
 brew install watchman
 
 # phantomjs
-brew install phantomjs
+brew cask install phantomjs
 
 # gradle
 brew install gradle
