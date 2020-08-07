@@ -3,7 +3,8 @@
 # postgres
 brew install postgres
 brew services start postgresql
-createuser -s postgres
+createuser -s postgres # commonplace `postgres` user isn't auto-created
+createdb # db for `whoami` isn't auto-created
 
 # mongodb
 brew tap mongodb/brew
