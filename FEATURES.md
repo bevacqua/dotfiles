@@ -29,22 +29,14 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 
 ## CLI Tools
 
-- [`bower`](https://github.com/bower/bower)
-- [`component`](https://github.com/component/component)
 - [`eslint`](https://github.com/nzakas/eslint)
 - [`gist`](https://github.com/defunkt/gist) CLI tool to create GitHub gists
-- [`grunt`](http://gruntjs.com/)
-- [`grunt-init`](https://github.com/gruntjs/grunt-init)
-- [`jshint`](http://www.jshint.com/)
-- [`json`](https://github.com/zpoley/json-command)
 - [`node`](http://nodejs.org) <sub>_(through `nvm`)_</sub>
 - [`nodemon`](https://github.com/remy/nodemon)
 - [`npm`](http://npmjs.org/)
 - [`nvm`](https://github.com/creationix/nvm)
-- [`pm2`](https://github.com/Unitech/pm2)
 - [`static-server`](https://github.com/nbluis/static-server)
 - [`subl`](http://www.sublimetext.com/3)
-- [`yo`](https://github.com/yeoman/yo) <sub>_(yeoman)_</sub>
 
 - _...and many more_
 
@@ -72,6 +64,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 ## Database Engines
 
 - MongoDB
+- PostgreSQL
 
 ## Day-to-day communication and awesomeness
 

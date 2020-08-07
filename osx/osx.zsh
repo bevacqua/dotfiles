@@ -99,6 +99,9 @@ ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Pac
 # st3 keymaps
 ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
 
+# st3 SublimeLinter configuration
+ln -sfn $PWD/st3/SublimeLinter.sublime-settings.user ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
+
 # st3 package control plugin
 curl \
   -L https://packagecontrol.io/Package+Control.sublime-package \

@@ -41,9 +41,6 @@ export GIT_EDITOR="subl -w"
 # global packer cache
 export PACKER_CACHE_DIR="$HOME/packer_cache"
 
-# nvm -- node version manager
-[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
-
 # nvm auto loading
 source $ZSHFILES/auto_nvm_use
 

@@ -1,0 +1,2 @@
+# nvm -- node version manager
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
