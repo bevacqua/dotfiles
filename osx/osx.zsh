@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# .editorconfig link
+ln -sfn $PWD/.editorconfig ~/.editorconfig
+
 # suppress "Last login …" messages
 touch ~/.hushlogin
 
@@ -97,7 +100,9 @@ ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Pac
 ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ (OSX).sublime-keymap
 
 # st3 package control plugin
-curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+curl \
+  -L https://packagecontrol.io/Package+Control.sublime-package \
+  -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
 # run OS-free scripts
 zsh $PWD/installation/universal.zsh
