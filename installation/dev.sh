@@ -4,10 +4,6 @@
 zsh $PWD/installation/packages-npm.zsh
 zsh $PWD/installation/packages-atom.zsh
 
-# automatic node version manager
-npm install -g avn avn-nvm
-avn setup
-
 # aws-cli
 pip2 install awscli --upgrade
 
