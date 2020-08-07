@@ -1,3 +1,6 @@
+# fix random zsh complaints
+ZSH_DISABLE_COMPFIX=true
+
 # use utf-8
 export LANG="en_US.UTF-8"
 export LC_COLLATE="en_US.UTF-8"
