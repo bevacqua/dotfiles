@@ -3,8 +3,10 @@
 # configure the shell script
 zsh $PWD/installation/bootstrap.zsh
 
-# base git configuration
-cp $PWD/git/.gitconfig.global ~/.gitconfig
+# base git configuration, dont't link
+cp $PWD/git/.gitconfig.defaults ~/.gitconfig
+
+# global .gitignore
 ln -sfn $PWD/git/.gitignore.global ~/.gitignore
 
 # git configuration
