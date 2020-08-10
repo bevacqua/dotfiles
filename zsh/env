@@ -2,12 +2,5 @@
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/heroku/bin:$HOME/Library/Android/sdk/platform-tools:$HOME/bin:$PATH
 export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
 
-# docker-machine environment
-if [ ! "$(docker-machine env default)" ]; then
-  docker-machine start default
-fi
-
-eval $(docker-machine env default)
-
 # nvm -- node version manager
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh

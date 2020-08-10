@@ -65,18 +65,18 @@ brew cask install virtualbox
 
 # docker
 brew install docker
-brew install docker-machine
 brew install docker-compose
 
-# setup docker-machine
-docker-machine create --driver virtualbox default
-docker-machine ls
-docker-machine start default
-docker-machine ls
-docker-machine env default
+# install docker for Mac
+curl \
+  -L https://download.docker.com/mac/stable/Docker.dmg \
+  -o ~/Desktop/Docker.dmg
 
-# wire up docker-machine host alias for docker-machine
-echo "$(docker-machine ip default)\tdocker-machine" | sudo tee --append /etc/hosts
+# you'll have to drag and drop 😰
+open ~/Desktop/Docker.dmg
+
+# afterwards, finish up setup
+open /Applications/Docker.app
 
 # terraform
 brew install terraform
