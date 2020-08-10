@@ -38,7 +38,7 @@ export GIT_EDITOR="subl -w"
 export PACKER_CACHE_DIR="$HOME/packer_cache"
 
 # nvm auto loading
-source $ZSHFILES/auto_nvm_use
+source $ZSHFILES/autoload_node_nvm_version
 
 source $ZSHFILES/completion
 source $ZSHFILES/aliases

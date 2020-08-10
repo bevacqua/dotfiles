@@ -1,0 +1,51 @@
+traverse_for_version_file() {
+  local dir_path="$PWD"
+
+  # traverse until either $1 file exists in directory, or we hit `/`
+  while [ "$dir_path" != "" ] && [ ! -f "$dir_path/$1" ]; do
+    dir_path=${dir_path%/*}
+  done
+
+  echo "$dir_path/$1"
+}
+
+count_slashes() {
+  echo "$1" | tr -d -c "/" | wc -c
+}
+
+find_closest_version_path() {
+  # look for closest `.node-version` file
+  local nodeversion_path="$(traverse_for_version_file ".node-version")"
+
+  # look for closest `.nvmrc` file
+  local nvmrc_path="$(traverse_for_version_file ".nvmrc")"
+
+  # count slashes to determine which version file flavor is closer
+  if [ "$(count_slashes "$nodeversion_path")" -gt "$(count_slashes "$nvmrc_path")" ]; then
+    echo "$nodeversion_path"
+  else
+    echo "$nvmrc_path"
+  fi
+}
+
+autoload_node_nvm_version() {
+  local actual_version="$(nvm version)"
+  local version_path="$(find_closest_version_path)"
+
+  if [ -e "$version_path" ]; then
+    local expected_version="$(cat "$version_path")"
+    local installed_version=$(nvm version "$expected_version")
+
+    if [ "$installed_version" = "N/A" ]; then
+      nvm install "$expected_version"
+    elif [ "$installed_version" != "$actual_version" ]; then
+      nvm use "$installed_version"
+    fi
+  elif [ "$actual_version" != "$(nvm version default)" ]; then
+    nvm use default
+  fi
+}
+
+autoload -U add-zsh-hook
+add-zsh-hook chpwd autoload_node_nvm_version
+autoload_node_nvm_version
