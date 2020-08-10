@@ -3,4 +3,5 @@ export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
 
 # nvm -- node version manager
-[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
