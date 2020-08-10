@@ -68,12 +68,15 @@ brew install docker
 brew install docker-machine
 brew install docker-compose
 
-# setup docker
+# setup docker-machine
 docker-machine create --driver virtualbox default
 docker-machine ls
 docker-machine start default
 docker-machine ls
 docker-machine env default
+
+# wire up docker-machine host alias for docker-machine
+echo "$(docker-machine ip default)\tdocker-machine" | sudo tee --append /etc/hosts
 
 # terraform
 brew install terraform
