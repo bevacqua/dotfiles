@@ -15,9 +15,6 @@ cp $PWD/osx/support/latinamerican.keylayout ~/Library/Keyboard\ Layouts
 # cask for brew
 brew tap homebrew/cask
 
-# cask versions
-brew tap hombrew/cask-versions
-
 # wget
 brew install wget
 
