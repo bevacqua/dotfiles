@@ -9,7 +9,5 @@ ln -sfn $PWD/zsh/config ~/.zshrc
 ln -sfn $PWD/zsh/env ~/.zshenv
 ln -sfn $PWD/zsh/profile ~/.zprofile
 
-configure-atom
-
 # machine config placeholder
 echo "# insert machine-specific configuration here" > ~/.zshrc.user
