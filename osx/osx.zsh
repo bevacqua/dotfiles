@@ -101,7 +101,7 @@ ln -sfn $PWD/st3/SublimeLinter.sublime-settings.user ~/Library/Application\ Supp
 
 # st3 package control plugin
 curl \
-  -L https://packagecontrol.io/Package+Control.sublime-package \
+  -L https://packagecontrol.io/Package\ Control.sublime-package \
   -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
 # run OS-free scripts
