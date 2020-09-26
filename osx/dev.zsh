@@ -27,7 +27,8 @@ wget -qO- https://toolbelt.heroku.com/install.sh | sh
 brew cask install sourcetree
 
 # java
-brew cask install java
+brew install java
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 # MAMP
 brew cask install mamp
