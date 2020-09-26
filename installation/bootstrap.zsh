@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# pull gpg private key into keyring
+gpg --import ~/.pgp.private.key
+
 # configuration
 DEFAULT_NAME="Nicolás Bevacqua"
 DEFAULT_EMAIL="nicolasbevacqua@gmail.com"
