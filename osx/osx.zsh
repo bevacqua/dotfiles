@@ -104,6 +104,9 @@ curl \
   -L https://packagecontrol.io/Package\ Control.sublime-package \
   -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
+# sublime TS plugin issue we need to fix by hand:
+# https://github.com/microsoft/TypeScript-Sublime-Plugin/issues/736
+
 # run OS-free scripts
 zsh $PWD/installation/universal.zsh
 
