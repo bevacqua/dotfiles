@@ -2,4 +2,4 @@
 export JAVA_HOME="$(/usr/libexec/java_home -v "`java --version`")"
 
 # increase open fd limit
-ulimit -n 24576 24576
+ulimit -n 24576000 24576000
