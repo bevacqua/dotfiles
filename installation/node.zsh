@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 # refresh configuration
 source ~/.zshrc
@@ -21,7 +21,7 @@ brew install yarn
 echo "Adding npm publisher information"
 npm config set init-author-name "$NAME"
 npm config set init-author-email "$EMAIL"
-npm config set init-author-url "$SITE"
+npm config set init-author-url "$WEBSITE"
 npm config set init-license "MIT"
 npm config set save-exact true
 npm adduser

@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# set system preferences
+zsh $PWD/osx/preferences.zsh
+
 # .editorconfig link
 ln -sfn $PWD/.editorconfig ~/.editorconfig
 
@@ -28,7 +31,7 @@ brew install trash
 brew install graphicsmagick
 
 # xquartz
-brew cask install xquartz
+brew install --cask xquartz
 
 # ffmpeg
 brew install ffmpeg
@@ -37,10 +40,10 @@ brew install ffmpeg
 brew install gifsicle
 
 # gpg
-brew cask install gpg-suite
+brew install --cask gpg-suite
 
 # iterm
-brew cask install iterm2
+brew install --cask iterm2
 
 # snazzy iterm theme
 open $PWD/osx/support/snazzy.itermcolors
@@ -49,13 +52,13 @@ open $PWD/osx/support/snazzy.itermcolors
 brew install zsh
 
 # oh-my-zsh
-wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | ZSH= sh
 
 # set zsh as default shell
 chsh -s `which zsh`
 
 # alfred
-brew cask install alfred
+brew install --cask alfred
 
 # mercurial
 brew install hg
@@ -73,19 +76,19 @@ brew install diff-so-fancy
 zsh $PWD/installation/configure-git.zsh
 
 # hyper editor
-brew cask install hyper
+brew install --cask hyper
 
 # hyper preferences
 ln -sfn $PWD/hyper/.hyper.js ~/.hyper.js
 
 # atom editor
-brew cask install atom
+brew install --cask atom
 
 # vs code editor
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 # st3
-brew cask install sublime-text
+brew install --cask sublime-text
 
 # snazzy st3 theme
 ln -sfn $PWD/st3/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snazzy.tmTheme
@@ -114,7 +117,7 @@ mv PowerlineSymbols.otf ~/Library/Fonts
 git clone --depth 1 https://github.com/Lokaltog/powerline-fonts.git ~/Library/Fonts/powerline-fonts
 
 # google web fonts
-curl -L https://github.com/google/fonts/archive/master.zip > ~/Library/Fonts/gwf.zip
+curl -L https://codeload.github.com/google/fonts/zip/refs/heads/main > ~/Library/Fonts/gwf.zip
 mkdir ~/Library/Fonts/gwf
 unzip ~/Library/Fonts/gwf.zip -d ~/Library/Fonts/gwf
 rm ~/Library/Fonts/gwf.zip

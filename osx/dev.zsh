@@ -24,23 +24,23 @@ brew services start mongodb-community
 wget -qO- https://toolbelt.heroku.com/install.sh | sh
 
 # sourcetree
-brew cask install sourcetree
+brew install --cask sourcetree
 
 # java
 brew install java
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 # MAMP
-brew cask install mamp
+brew install --cask mamp
 
 # DiffMerge
-brew cask install diffmerge
+brew install --cask diffmerge
 
 # watchman, because facebook tools like Jest
 brew install watchman
 
 # phantomjs
-brew cask install phantomjs
+brew install --cask phantomjs
 
 # gradle
 brew install gradle
@@ -50,7 +50,7 @@ xcode-select --install
 brew install pkg-config cairo libpng jpeg giflib
 
 # ngrok
-brew cask install ngrok
+brew install --cask ngrok
 
 # jq
 brew install jq
@@ -62,7 +62,7 @@ brew install ack
 brew install packer
 
 # virtual-box
-brew cask install virtualbox
+brew install --cask virtualbox
 
 # docker
 brew install docker
@@ -83,4 +83,4 @@ open /Applications/Docker.app
 brew install terraform
 
 # vagrant
-brew cask install vagrant
+brew install --cask vagrant

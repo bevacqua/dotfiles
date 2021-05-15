@@ -1,57 +1,45 @@
 #!/bin/zsh
 
 # all the browsers
-brew cask install google-chrome
-brew cask install google-chrome-canary
-brew cask install firefox
-brew cask install opera
+brew install --cask google-chrome
+brew install --cask google-chrome-canary
+brew install --cask firefox
+brew install --cask opera
 
 # hipchat
-brew cask install slack
+brew install --cask slack
 
 # skype
-brew cask install skype
+brew install --cask skype
 
 # openoffice
-brew cask install openoffice
+brew install --cask openoffice
 
 # irc client
 # Textual, you can get it at the App Store
 
 # gimp
-brew cask install gimp
+brew install --cask gimp
 
 # inkscape
-brew cask install inkscape
+brew install --cask inkscape
 
 # vlc
-brew cask install vlc
+brew install --cask vlc
 
 # transmission
-brew cask install transmission
+brew install --cask transmission
 
 # emojis
-brew cask install mojibar
+brew install --cask mojibar
 
 # quick look plugins
-brew cask install qlcolorcode
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install quicklook-json
-brew cask install qlprettypatch
-brew cask install quicklook-csv
-brew cask install betterzipql
-brew cask install webp-quicklook
-brew cask install suspicious-package
-
-# allow text selection in the quick look window
-defaults write com.apple.finder QLEnableTextSelection -bool true
-
-# show dotfiles in finder
-defaults write com.apple.finder AppleShowAllFiles YES
-
-# suppress bounce notifications
-defaults write com.apple.dock no-bouncing -bool TRUE
-
-# refresh any finder windows
-killall Finder
+brew install --cask qlcolorcode
+brew install --cask qlstephen
+brew install --cask qlmarkdown
+brew install --cask quicklook-json
+brew install --cask qlprettypatch
+brew install --cask quicklook-csv
+brew install --cask betterzipql
+brew install --cask webp-quicklook
+brew install --cask suspicious-package
