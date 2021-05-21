@@ -2,4 +2,4 @@
 
 echo "[ubuntu] Creating symbolic links on directory: $PWD"
 
-ln -sfn $PWD/st3/preferences ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+ln -sfn $PWD/st4/preferences ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings

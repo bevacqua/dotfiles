@@ -2,6 +2,7 @@
 
 echo "[macosx] Creating symbolic links on directory: $PWD"
 
-ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
-ln -sfn $PWD/st3/SublimeLinter.sublime-settings.user ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
+ln -sfn $PWD/st4/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snazzy.tmTheme
+ln -sfn $PWD/st4/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+ln -sfn $PWD/st4/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+ln -sfn $PWD/st4/SublimeLinter.sublime-settings.user ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings

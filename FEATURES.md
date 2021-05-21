@@ -15,7 +15,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 
 ## Power Tools
 
-- [**Sublime Text 3**](http://www.sublimetext.com/3) with some defaults you can change at `st3/preferences`
+- [**Sublime Text 4**](https://www.sublimetext.com) with some defaults you can change at `st4/preferences`
 - `zsh`, courtesy of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh "A community-driven framework for managing your zsh configuration")
     - Complete with [`Package Control`](https://sublime.wbond.net/)! **Recommended packages:**
         - EditorConfig

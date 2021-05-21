@@ -87,22 +87,22 @@ brew install --cask atom
 # vs code editor
 brew install --cask visual-studio-code
 
-# st3
+# st3, hopefully gets updated to st4 soon 😬
 brew install --cask sublime-text
 
-# snazzy st3 theme
-ln -sfn $PWD/st3/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snazzy.tmTheme
+# snazzy st4 theme
+ln -sfn $PWD/st4/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snazzy.tmTheme
 
-# st3 preferences
-ln -sfn $PWD/st3/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+# st4 preferences
+ln -sfn $PWD/st4/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
-# st3 keymaps
-ln -sfn $PWD/st3/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+# st4 keymaps
+ln -sfn $PWD/st4/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
 
-# st3 SublimeLinter configuration
-ln -sfn $PWD/st3/SublimeLinter.sublime-settings.user ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
+# st4 SublimeLinter configuration
+ln -sfn $PWD/st4/SublimeLinter.sublime-settings.user ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
 
-# st3 package control plugin
+# st4 package control plugin
 curl \
   -L https://packagecontrol.io/Package\ Control.sublime-package \
   -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
