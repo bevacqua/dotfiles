@@ -140,6 +140,8 @@ zsh $PWD/osx/programs.zsh
 
 ## Profiles > Advanced > Smart Selection
 
+## -----
+
 ## Smart Selection rule
 
 ### Note: Git commit hash
@@ -149,5 +151,21 @@ zsh $PWD/osx/programs.zsh
 ## Context menu item
 
 ### Title: Open remote commit
-### Action: Run command
+### Action: Run command…
 ### Parameter: open `cd "\d" && git config --get remote.origin.url | sed -e 's/:/\//' -e 's/\.git//' -e 's/git@/https:\/\//' -e 's/https\/\/\//https:\/\//'`"/commit/\0"
+
+## -----
+
+## Smart Selection rule
+
+### Note: GitHub Issues
+### Regular expression: #(\d+)
+### Precision: Low
+
+## Context menu item
+
+### Title: Open GitHub Issue
+### Action: Run command…
+### Parameter: open `cd "\d" && git config --get remote.origin.url | sed -e 's/:/\//' -e 's/\.git//' -e 's/git@/https:\/\//' -e 's/https\/\/\//https:\/\//'`"/issues/\1"
+
+## -----
