@@ -135,14 +135,11 @@ zsh $PWD/osx/dev.zsh
 # install programs
 zsh $PWD/osx/programs.zsh
 
-# add this stuff by hand to get iterm2 to be fancier:
-# use command+click to open git commits in your web browser
-
-## Profiles > Advanced > Smart Selection
+# add this stuff by hand to get iterm2 to be fancier, in Profiles > Advanced > Smart Selection:
 
 ## -----
 
-## Smart Selection rule
+## 1. Smart Selection rule
 
 ### Note: Git commit hash
 ### Regular expression: ([a-f0-9]{4,40})
@@ -156,7 +153,7 @@ zsh $PWD/osx/programs.zsh
 
 ## -----
 
-## Smart Selection rule
+## 2. Smart Selection rule
 
 ### Note: GitHub Issues
 ### Regular expression: #(\d+)
