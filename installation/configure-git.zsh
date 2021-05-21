@@ -4,10 +4,10 @@
 zsh $PWD/installation/bootstrap.zsh
 
 # base git configuration, dont't link
-cp $PWD/git/.gitconfig.defaults ~/.gitconfig
+cp $PWD/git/.defaults.gitconfig ~/.gitconfig
 
 # global .gitignore
-ln -sfn $PWD/git/.gitignore.global ~/.gitignore
+ln -sfn $PWD/git/.global.gitignore ~/.gitignore
 
 # git configuration
 git config --global user.name "$NAME"
