@@ -134,3 +134,20 @@ zsh $PWD/osx/dev.zsh
 
 # install programs
 zsh $PWD/osx/programs.zsh
+
+# add this stuff by hand to get iterm2 to be fancier:
+# use command+click to open git commits in your web browser
+
+## Profiles > Advanced > Smart Selection
+
+## Smart Selection rule
+
+### Note: Git commit hash
+### Regular expression: ([a-f0-9]{4,40})
+### Precision: Normal
+
+## Context menu item
+
+### Title: Open remote commit
+### Action: Run command
+### Parameter: open `cd "\d" && git config --get remote.origin.url | sed -e 's/:/\//' -e 's/\.git//' -e 's/git@/https:\/\//' -e 's/https\/\/\//https:\/\//'`"/commit/\0"
