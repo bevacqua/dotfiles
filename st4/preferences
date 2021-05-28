@@ -25,7 +25,7 @@
 		"ASP",
 		"Seti_UI",
 		"SublimeLinter-eslint",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -41,5 +41,5 @@
 	"show_full_path": true,
 	"theme": "Adaptive.sublime-theme",
 	"update_check": true,
-	"word_wrap": true
+	"word_wrap": true,
 }
