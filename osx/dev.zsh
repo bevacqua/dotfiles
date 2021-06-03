@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # postgres
-brew install postgres
+brew install postgresql
 brew services start postgresql
 createuser -s postgres # commonplace `postgres` user isn't auto-created
 createdb # db for `whoami` isn't auto-created

@@ -2,7 +2,7 @@
 export JAVA_HOME="$(/usr/libexec/java_home -v "`java --version`")"
 
 # increase open fd limit
-ulimit -n 24576000 24576000
+ulimit -n 2457600000 2457600000
 
 # sublime TS plugin issue we need to fix by hand:
 node $ZSHFILES/hacks/autofix-sublime-typescript-plugin ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/TypeScript/Default.sublime-keymap
