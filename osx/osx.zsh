@@ -21,8 +21,11 @@ brew tap homebrew/cask
 # wget
 brew install wget
 
-# python (pip)
+# python (pip3)
 brew install python
+
+# pip
+pip3 install pip --upgrade
 
 # trash
 brew install trash
