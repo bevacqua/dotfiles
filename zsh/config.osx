@@ -5,4 +5,4 @@ export JAVA_HOME="$(/usr/libexec/java_home -v "`java --version`")"
 ulimit -n 2457600000 2457600000
 
 # sublime TS plugin issue we need to fix by hand:
-node $ZSHFILES/hacks/autofix-sublime-typescript-plugin ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/TypeScript/Default.sublime-keymap
+node $ZSHFILES/hacks/autofix-sublime-typescript-plugin ~/Library/Application\ Support/Sublime\ Text/Packages/TypeScript/Default.sublime-keymap

@@ -94,21 +94,21 @@ brew install --cask visual-studio-code
 brew install --cask sublime-text
 
 # snazzy st4 theme
-ln -sfn $PWD/st4/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snazzy.tmTheme
+ln -sfn $PWD/st4/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text/Packages/User/snazzy.tmTheme
 
 # st4 preferences
-ln -sfn $PWD/st4/preferences ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+ln -sfn $PWD/st4/preferences ~/Library/Application\ Support/Sublime\ Text/Packages/User/Preferences.sublime-settings
 
 # st4 keymaps
-ln -sfn $PWD/st4/keymap.osx ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+ln -sfn $PWD/st4/keymap.osx ~/Library/Application\ Support/Sublime\ Text/Packages/User/Default\ \(OSX\).sublime-keymap
 
 # st4 SublimeLinter configuration
-ln -sfn $PWD/st4/SublimeLinter.sublime-settings.user ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
+ln -sfn $PWD/st4/SublimeLinter.sublime-settings.user ~/Library/Application\ Support/Sublime\ Text/Packages/User/SublimeLinter.sublime-settings
 
 # st4 package control plugin
 curl \
   -L https://packagecontrol.io/Package\ Control.sublime-package \
-  -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+  -o ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages/Package\ Control.sublime-package
 
 # run OS-free scripts
 zsh $PWD/installation/universal.zsh
