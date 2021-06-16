@@ -31,7 +31,7 @@ source $ZSH/oh-my-zsh.sh
 [[ $(uname -s) == MINGW32_* ]] && source $ZSHFILES/config.win32
 
 # set default editor
-export EDITOR="atom"
+export EDITOR="subl"
 export GIT_EDITOR="subl -w"
 
 # global packer cache
