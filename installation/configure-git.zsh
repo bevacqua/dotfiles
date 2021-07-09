@@ -13,6 +13,7 @@ ln -sfn $PWD/git/.global.gitignore ~/.gitignore
 git config --global user.name "$NAME"
 git config --global user.email "$EMAIL"
 git config --global user.signingkey "$PGP_KEY"
+git config --global init.defaultBranch master
 
 # hub utility
 sudo gem install hub
