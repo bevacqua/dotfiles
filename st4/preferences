@@ -1,45 +1,45 @@
 {
-	"always_show_minimap_viewport": true,
-	"bold_folder_labels": true,
-	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/snazzy.tmTheme",
-	"folder_exclude_patterns":
-	[
-		".bin",
-		".git",
-		".node_binaries",
-		".svn",
-		"dist",
-		"node_modules",
-		"tmp"
-	],
-	"font_face": "Droid Sans Mono for Powerline",
-	"font_options":
-	[
-	],
-	"font_size": 15,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"ActionScript",
-		"ASP",
-		"Seti_UI",
-		"SublimeLinter-eslint",
-		"Vintage",
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"material_theme_small_tab": true,
-	"overlay_scroll_bars": "enabled",
-	"remember_open_files": true,
-	"save_on_focus_lost": true,
-	"show_full_path": true,
-	"theme": "Adaptive.sublime-theme",
-	"update_check": true,
-	"word_wrap": true,
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "close_windows_when_empty": true,
+  "color_scheme": "Packages/User/snazzy.tmTheme",
+  "folder_exclude_patterns":
+  [
+    ".bin",
+    ".git",
+    ".node_binaries",
+    ".svn",
+    "dist",
+    "node_modules",
+    "tmp",
+  ],
+  "font_face": "Droid Sans Mono for Powerline",
+  "font_options":
+  [
+  ],
+  "font_size": 15,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "ActionScript",
+    "ASP",
+    "Seti_UI",
+    "SublimeLinter-eslint",
+    "Vintage",
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 3,
+  "line_padding_top": 3,
+  "material_theme_small_tab": true,
+  "overlay_scroll_bars": "enabled",
+  "remember_open_files": true,
+  "save_on_focus_lost": true,
+  "show_full_path": true,
+  "theme": "Adaptive.sublime-theme",
+  "update_check": true,
+  "word_wrap": true,
 }
