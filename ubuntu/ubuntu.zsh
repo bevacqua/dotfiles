@@ -27,7 +27,7 @@ sudo apt-get install -y git-core
 # git-flow
 sudo apt-get install git-flow
 
-# git configuration + hub
+# git configuration
 sh $PWD/installation/configure-git.zsh
 
 # sublime text 3

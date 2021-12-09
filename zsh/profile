@@ -2,3 +2,4 @@
 # customize path for java
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+eval "$(/opt/homebrew/bin/brew shellenv)"

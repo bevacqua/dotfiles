@@ -63,35 +63,19 @@ chsh -s `which zsh`
 # alfred
 brew install --cask alfred
 
-# mercurial
-brew install hg
-
 # git
 brew install git
-
-# git-flow
-brew install git-flow
 
 # git diff-so-fancy
 brew install diff-so-fancy
 
-# git configuration + hub
+# git configuration
 zsh $PWD/installation/configure-git.zsh
 
-# hyper editor
-brew install --cask hyper
-
-# hyper preferences
-ln -sfn $PWD/hyper/.hyper.js ~/.hyper.js
-
-# atom editor
-brew install --cask atom
-
-# vs code editor
-brew install --cask visual-studio-code
-
-# st3, hopefully gets updated to st4 soon 😬
+# st4
 brew install --cask sublime-text
+
+# open st4 once
 
 # snazzy st4 theme
 ln -sfn $PWD/st4/snazzy.tmTheme ~/Library/Application\ Support/Sublime\ Text/Packages/User/snazzy.tmTheme
@@ -137,35 +121,3 @@ zsh $PWD/osx/dev.zsh
 
 # install programs
 zsh $PWD/osx/programs.zsh
-
-# add this stuff by hand to get iterm2 to be fancier, in Profiles > Advanced > Smart Selection:
-
-## -----
-
-## 1. Smart Selection rule
-
-### Note: Git commit hash
-### Regular expression: ([a-f0-9]{4,40})
-### Precision: Normal
-
-## Context menu item
-
-### Title: Open remote commit
-### Action: Run command…
-### Parameter: open `cd "\d" && git config --get remote.origin.url | sed -e 's/:/\//' -e 's/\.git//' -e 's/git@/https:\/\//' -e 's/https\/\/\//https:\/\//'`"/commit/\0"
-
-## -----
-
-## 2. Smart Selection rule
-
-### Note: GitHub Issues
-### Regular expression: #(\d+)
-### Precision: Low
-
-## Context menu item
-
-### Title: Open GitHub Issue
-### Action: Run command…
-### Parameter: open `cd "\d" && git config --get remote.origin.url | sed -e 's/:/\//' -e 's/\.git//' -e 's/git@/https:\/\//' -e 's/https\/\/\//https:\/\//'`"/issues/\1"
-
-## -----

@@ -20,21 +20,9 @@ brew tap mongodb/brew
 brew install mongodb-community
 brew services start mongodb-community
 
-# heroku toolbelt
-wget -qO- https://toolbelt.heroku.com/install.sh | sh
-
-# sourcetree
-brew install --cask sourcetree
-
 # java
 brew install java
-sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-
-# MAMP
-brew install --cask mamp
-
-# DiffMerge
-brew install --cask diffmerge
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 # watchman, because facebook tools like Jest
 brew install watchman
@@ -54,9 +42,6 @@ brew install --cask ngrok
 
 # jq
 brew install jq
-
-# ack
-brew install ack
 
 # packer
 brew install packer
@@ -81,6 +66,3 @@ open /Applications/Docker.app
 
 # terraform
 brew install terraform
-
-# vagrant
-brew install --cask vagrant
