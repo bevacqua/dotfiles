@@ -2,17 +2,6 @@
 
 This project sets up a bunch of tools and frameworks for you to hack on, including all of the following.
 
-## Much needed things
-
-- GraphicsMagick
-- `git`, `hg`, also GitHub's [`hub`](http://hub.github.com/) CLI utility
-
-## Package managers!
-
-- RubyGems with the `gem` CLI
-- Python with the `pip` CLI
-- JavaScript with [`bower`](http://bower.io/), [`npm`](http://npmjs.org/), or [`component`](http://component.io/), your pick!
-
 ## Power Tools
 
 - [**Sublime Text 4**](https://www.sublimetext.com) with some defaults you can change at `st4/preferences`
@@ -37,12 +26,10 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - [`nvm`](https://github.com/creationix/nvm)
 - [`static-server`](https://github.com/nbluis/static-server)
 - [`subl`](http://www.sublimetext.com/3)
-
-- _...and many more_
+- [`awscli`](http://aws.amazon.com/cli/)
 
 ## Custom Commands and Aliases
 
-- `git-flow` out the box
 - `open` alias to `xdg-open` on Ubuntu
 - `zshconfig` alias to hack on settings
 - `dotconfig` alias to hack on custom settings
@@ -56,8 +43,7 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 ## Niceties
 
 - Every _Google Web Font_ gets installed in your box
-- [VLC](http://www.videolan.org/vlc/index.html), you know you want it
-- Application Launchers!
+- Application Launchers
     - [gnome-do](https://launchpad.net/do) on Ubuntu
     - [Alfred](https://www.alfredapp.com/) on OSX
 
@@ -66,19 +52,3 @@ This project sets up a bunch of tools and frameworks for you to hack on, includi
 - PostgreSQL
 - Redis
 - MongoDB
-
-## Day-to-day communication and awesomeness
-
-- Google Chrome
-- HipChat
-- Skype
-- IRC Client
-    - [`xchat`](https://apps.ubuntu.com/cat/applications/precise/xchat/) on Ubuntu
-- Drawing apps
-    - [Inkscape](http://inkscape.org/en/)
-    - [Gimp](http://www.gimp.org/)
-
-## Random things probably only I care about
-
-- [heroku](https://toolbelt.heroku.com/) CLI tools
-- The Amazon Web Services CLI, [aws-cli](http://aws.amazon.com/cli/)
