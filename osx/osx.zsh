@@ -9,9 +9,6 @@ ln -sfn $PWD/.editorconfig ~/.editorconfig
 # suppress "Last login …" messages
 touch ~/.hushlogin
 
-# Latin American keyboard layout
-cp $PWD/osx/support/latinamerican.keylayout ~/Library/Keyboard\ Layouts
-
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
