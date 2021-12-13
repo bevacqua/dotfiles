@@ -24,9 +24,6 @@ sudo apt-get install xvfb
 # git
 sudo apt-get install -y git-core
 
-# git-flow
-sudo apt-get install git-flow
-
 # git configuration
 sh $PWD/installation/configure-git.zsh
 

@@ -2,7 +2,7 @@
   "always_show_minimap_viewport": true,
   "bold_folder_labels": true,
   "close_windows_when_empty": true,
-  "color_scheme": "Packages/User/snazzy.tmTheme",
+  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
   "folder_exclude_patterns":
   [
     ".bin",
@@ -17,7 +17,7 @@
   "font_options":
   [
   ],
-  "font_size": 15,
+  "font_size": 14,
   "hot_exit": false,
   "ignored_packages":
   [
