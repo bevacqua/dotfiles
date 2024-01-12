@@ -33,13 +33,5 @@ brew install --cask transmission
 # emojis
 brew install --cask mojibar
 
-# quick look plugins
-brew install --cask qlcolorcode
-brew install --cask qlstephen
-brew install --cask qlmarkdown
-brew install --cask quicklook-json
-brew install --cask qlprettypatch
-brew install --cask quicklook-csv
-brew install --cask betterzipql
-brew install --cask webp-quicklook
-brew install --cask suspicious-package
+# util to switch audio input devices https://github.com/deweller/switchaudio-osx
+brew install switchaudio-osx
