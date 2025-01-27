@@ -30,8 +30,5 @@ brew install --cask vlc
 # transmission
 brew install --cask transmission
 
-# emojis
-brew install --cask mojibar
-
 # util to switch audio input devices https://github.com/deweller/switchaudio-osx
 brew install switchaudio-osx
