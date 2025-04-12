@@ -21,9 +21,6 @@ brew install python
 # pip
 pip3 install pip --upgrade
 
-# trash
-brew install trash
-
 # gm
 brew install graphicsmagick
 
