@@ -12,9 +12,6 @@ touch ~/.hushlogin
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-# cask for brew
-brew tap homebrew/cask
-
 # wget
 brew install wget
 
